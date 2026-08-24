@@ -4,7 +4,7 @@
 > 每一条提示词都不是几个关键词的堆砌，而是一份可直接投喂给模型的**完整摄影/美术指令**：画幅、机位、焦段、空间层次、材质、光线、动态、负面清单一应俱全。
 
 <p>
-  <img alt="prompts" src="https://img.shields.io/badge/prompts-11-blue" />
+  <img alt="prompts" src="https://img.shields.io/badge/prompts-12-blue" />
   <img alt="categories" src="https://img.shields.io/badge/categories-7-green" />
   <img alt="lang" src="https://img.shields.io/badge/lang-中文%20%2F%20English-orange" />
 </p>
@@ -73,6 +73,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | 宏大风格 | [prompt-one.md](宏大风格/prompt-one.md) | 16:9 | 短 | 悬崖天宫巨构，港式奇幻武侠电影语言 |
 | 宏大风格 | [prompt-two.md](宏大风格/prompt-two.md) | 16:9 | 长 | 天宫系列世界观设定集，供九宫格成组出图 |
 | 武侠 | [prompt-one.md](武侠/prompt-one.md) | 16:9 | 长 | 东方蒸汽朋克工业水城，真人电影实拍质感 |
+| 武侠 | [赛博朋克.md](武侠/赛博朋克.md) | 16:9 | 中 | 屋顶武士背影俯瞰黄昏工业巨城 |
 | 武侠 | [机甲.md](武侠/机甲.md) | 16:9 | 长 | 生物机械剑圣 × 暴雨都市战争剧照 |
 | 武侠 | [机甲-白天.md](武侠/机甲-白天.md) | 16:9 | 长 | 白天版，含铠甲/头盔/流马尾完整设定 |
 | 武侠 | [机甲-夜晚.md](武侠/机甲-夜晚.md) | 16:9 | 长 | 夜晚暴雨版，与白天版共用角色设定 |
@@ -96,6 +97,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 这一组的共同目标是**真人电影实拍质感**，所有文件开头都用大段否定把模型从「概念艺术 / 游戏 CG / 数字绘画 / 油画」上拽下来。
 
 - [`prompt-one.md`](武侠/prompt-one.md)：东方蒸汽朋克巨型工业水城，中式塔楼飞檐与钢铁平台、铜管、锅炉共存，要求符合现实工程逻辑——铆钉、焊缝、支撑结构、承重桥梁一样不少。
+- [`赛博朋克.md`](武侠/赛博朋克.md)：第三人称背后视角，武士站在锈红色工业屋顶最前端俯瞰整座水上巨城。指定了 ARRI Alexa 35 + 20mm 电影镜头、黄昏逆光、前中远三层景深衰减，并对皮肤毛孔、发丝、金属氧化、布料垂坠等逐项提出真实材质要求。
 - [`机甲.md`](武侠/机甲.md) / [`机甲-白天.md`](武侠/机甲-白天.md) / [`机甲-夜晚.md`](武侠/机甲-夜晚.md)：同一位「未来东方剑圣」的三个变体，按【场景】【城市真实性】【城市规模】【天气环境】【摄影机】【人物设计】【机械铠甲】【胸甲】【头盔】【流马尾结构】【围巾与披帛】【披风】【武器】【镜头真实感】【Real Film Keywords】【Negative Prompt】逐节展开。白天/夜晚两版共用角色设定，只换光照与天气，是本仓库「控制单一变量做系列图」的范例。
 
 ### 梦幻空灵 · 超现实天象
@@ -174,6 +176,7 @@ image-prompt/
 ├─ 武侠/
 │  ├─ prompt-one.md
 │  ├─ prompt-one.png  # 成图与提示词同名，便于对照
+│  ├─ 赛博朋克.md
 │  ├─ 机甲.md
 │  ├─ 机甲-白天.md    # 变体用「主题-变量」命名
 │  ├─ 机甲-白天.png
