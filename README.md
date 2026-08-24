@@ -128,11 +128,11 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 
 ## 作品示例
 
-| <img src="武侠/prompt-one.png" width="340" /> | <img src="梦幻空灵/童话.png" width="340" /> | <img src="武侠/机甲-白天.png" width="340" /> |
+| <img src="武侠/prompt-one.png" width="340" /> | <img src="武侠/赛博朋克.png" width="340" /> | <img src="梦幻空灵/童话.png" width="340" /> |
 | :---: | :---: | :---: |
-| **武侠 · 东方巨城**<br />[`武侠/prompt-one.md`](武侠/prompt-one.md) | **梦幻空灵 · 童话**<br />[`梦幻空灵/童话.md`](梦幻空灵/童话.md) | **武侠 · 机甲（白天）**<br />[`武侠/机甲-白天.md`](武侠/机甲-白天.md) |
-| <img src="武侠/机甲-夜晚.png" width="340" /> |  |  |
-| **武侠 · 机甲（夜晚）**<br />[`武侠/机甲-夜晚.md`](武侠/机甲-夜晚.md) |  |  |
+| **武侠 · 东方巨城**<br />[`武侠/prompt-one.md`](武侠/prompt-one.md) | **武侠 · 赛博朋克**<br />[`武侠/赛博朋克.md`](武侠/赛博朋克.md) | **梦幻空灵 · 童话**<br />[`梦幻空灵/童话.md`](梦幻空灵/童话.md) |
+| <img src="武侠/机甲-白天.png" width="340" /> | <img src="武侠/机甲-夜晚.png" width="340" /> |  |
+| **武侠 · 机甲（白天）**<br />[`武侠/机甲-白天.md`](武侠/机甲-白天.md) | **武侠 · 机甲（夜晚）**<br />[`武侠/机甲-夜晚.md`](武侠/机甲-夜晚.md) |  |
 
 ---
 
@@ -177,6 +177,7 @@ image-prompt/
 │  ├─ prompt-one.md
 │  ├─ prompt-one.png  # 成图与提示词同名，便于对照
 │  ├─ 赛博朋克.md
+│  ├─ 赛博朋克.png
 │  ├─ 机甲.md
 │  ├─ 机甲-白天.md    # 变体用「主题-变量」命名
 │  ├─ 机甲-白天.png
