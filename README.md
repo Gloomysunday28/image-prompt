@@ -128,12 +128,14 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 
 ## 作品示例
 
-| <img src="宏大风格/宫阙图%20-%20%28风格%201%29.png" width="340" /> | <img src="武侠/蒸汽朋克.png" width="340" /> | <img src="武侠/赛博朋克.png" width="340" /> |
+> 预览图统一为 340×191 缩略图，点击可看原图。
+
+| <a href="宏大风格/宫阙图%20-%20%28风格%201%29.png"><img src="preview/gongque.jpg" width="340" height="191" /></a> | <a href="武侠/蒸汽朋克.png"><img src="preview/steampunk.jpg" width="340" height="191" /></a> | <a href="武侠/赛博朋克.png"><img src="preview/cyberpunk.jpg" width="340" height="191" /></a> |
 | :---: | :---: | :---: |
-| **宏大风格 · 宫阙图**<br />[`宏大风格/宫阙图 - (风格 1).md`](宏大风格/宫阙图%20-%20%28风格%201%29.md) | **武侠 · 东方巨城**<br />[`武侠/蒸汽朋克.md`](武侠/蒸汽朋克.md) | **武侠 · 赛博朋克**<br />[`武侠/赛博朋克.md`](武侠/赛博朋克.md) |
-| <img src="武侠/机甲-白天.png" width="340" /> | <img src="武侠/机甲-夜晚.png" width="340" /> | <img src="梦幻空灵/童话.png" width="340" /> |
+| **宏大风格 · 宫阙图**<br />[`宫阙图 - (风格 1).md`](宏大风格/宫阙图%20-%20%28风格%201%29.md) | **武侠 · 蒸汽朋克**<br />[`武侠/蒸汽朋克.md`](武侠/蒸汽朋克.md) | **武侠 · 赛博朋克**<br />[`武侠/赛博朋克.md`](武侠/赛博朋克.md) |
+| <a href="武侠/机甲-白天.png"><img src="preview/mecha-day.jpg" width="340" height="191" /></a> | <a href="武侠/机甲-夜晚.png"><img src="preview/mecha-night.jpg" width="340" height="191" /></a> | <a href="梦幻空灵/童话.png"><img src="preview/fairytale.jpg" width="340" height="191" /></a> |
 | **武侠 · 机甲（白天）**<br />[`武侠/机甲-白天.md`](武侠/机甲-白天.md) | **武侠 · 机甲（夜晚）**<br />[`武侠/机甲-夜晚.md`](武侠/机甲-夜晚.md) | **梦幻空灵 · 童话**<br />[`梦幻空灵/童话.md`](梦幻空灵/童话.md) |
-| <img src="宫崎骏画风/意大利旅游.png" width="300" /> | <img src="治愈/滑板治愈.png" width="200" /> |  |
+| <a href="宫崎骏画风/意大利旅游.png"><img src="preview/italy.jpg" width="340" height="191" /></a> | <a href="治愈/滑板治愈.png"><img src="preview/skate.jpg" width="340" height="191" /></a> |  |
 | **宫崎骏画风 · 意大利旅游**<br />[`宫崎骏画风/意大利旅游.md`](宫崎骏画风/意大利旅游.md) | **治愈 · 滑板**<br />[`治愈/滑板治愈.md`](治愈/滑板治愈.md) |  |
 
 ---
@@ -198,7 +200,8 @@ image-prompt/
 │  ├─ 意大利旅游.md
 │  └─ 意大利旅游.png
 ├─ 日常 emo/
-└─ 游戏/
+├─ 游戏/
+└─ preview/          # README 作品示例用的 16:9 统一缩略图
 ```
 
 - 一级目录按**风格**划分，不按模型划分；
