@@ -4,7 +4,7 @@
 > 每一条提示词都不是几个关键词的堆砌，而是一份可直接投喂给模型的**完整摄影/美术指令**：画幅、机位、焦段、空间层次、材质、光线、动态、负面清单一应俱全。
 
 <p>
-  <img alt="prompts" src="https://img.shields.io/badge/prompts-14-blue" />
+  <img alt="prompts" src="https://img.shields.io/badge/prompts-15-blue" />
   <img alt="categories" src="https://img.shields.io/badge/categories-7-green" />
   <img alt="lang" src="https://img.shields.io/badge/lang-中文%20%2F%20English-orange" />
 </p>
@@ -79,6 +79,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | 武侠 | [机甲-白天.md](武侠/机甲-白天.md) | 16:9 | 长 | 白天版，含铠甲/头盔/流马尾完整设定 |
 | 武侠 | [机甲-夜晚.md](武侠/机甲-夜晚.md) | 16:9 | 长 | 夜晚暴雨版，与白天版共用角色设定 |
 | 武侠 | [将军.md](武侠/将军.md) | 9:16 | 中 | 生物机械武士半身立绘，人物反推提示词 |
+| 武侠 | [骑士-正面.md](武侠/骑士-正面.md) | 9:16 | 长 | 全覆式头盔机械武将正面全身立绘 |
 | 梦幻空灵 | [prompt-one.md](梦幻空灵/prompt-one.md) | 9:16 | 短 | 巨型锦鲤遨游星云，低角度仰拍 |
 | 梦幻空灵 | [童话.md](梦幻空灵/童话.md) | 16:9 | 长 | 七彩天河逆光，第三人称跟拍探索感 |
 | 梦幻空灵 | [无人区-童话.md](梦幻空灵/无人区-童话.md) | 16:9 | 长 | 渡轮甲板仰望巨大星河漩涡 |
@@ -103,6 +104,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 - [`赛博朋克.md`](武侠/赛博朋克.md)：第三人称背后视角，武士站在锈红色工业屋顶最前端俯瞰整座水上巨城。指定了 ARRI Alexa 35 + 20mm 电影镜头、黄昏逆光、前中远三层景深衰减，并对皮肤毛孔、发丝、金属氧化、布料垂坠等逐项提出真实材质要求。
 - [`机甲.md`](武侠/机甲.md) / [`机甲-白天.md`](武侠/机甲-白天.md) / [`机甲-夜晚.md`](武侠/机甲-夜晚.md)：同一位「未来东方剑圣」的三个变体，按【场景】【城市真实性】【城市规模】【天气环境】【摄影机】【人物设计】【机械铠甲】【胸甲】【头盔】【流马尾结构】【围巾与披帛】【披风】【武器】【镜头真实感】【Real Film Keywords】【Negative Prompt】逐节展开。白天/夜晚两版共用角色设定，只换光照与天气，是本仓库「控制单一变量做系列图」的范例。
 - [`将军.md`](武侠/将军.md)：**人物反推提示词**，不写场景只写角色。黑色生物机械装甲、层叠如金属羽翼的巨型肩甲、鳞片胸甲与暴露的液压关节，反复强调「不是机器人 / 不是机甲驾驶员 / 不是全覆盖盔甲」，保持真人五官与真人身体比例。适合当角色设定块，拼进上面任意一条场景提示词。
+- [`骑士-正面.md`](武侠/骑士-正面.md)：**正面全身立绘**，与 `将军.md` 同为人物向提示词，但把头盔单独当成一个设计难点来写——主体取欧洲骑士 Armet / Close Helmet 的封闭轮廓，明确禁止日式兜的宽大外翻护颈与锅錣结构，再加东方武将冠角、极长黑色马尾、暗红破损围巾与披风。逐部位写到肩甲、胸甲、臂甲、裙甲、腿甲、刀与磨损痕迹，是本仓库最细的一份角色设定。
 
 ### 梦幻空灵 · 超现实天象
 
@@ -141,8 +143,8 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | **武侠 · 机甲（白天）**<br />[`武侠/机甲-白天.md`](武侠/机甲-白天.md) | **武侠 · 机甲（夜晚）**<br />[`武侠/机甲-夜晚.md`](武侠/机甲-夜晚.md) | **梦幻空灵 · 童话**<br />[`梦幻空灵/童话.md`](梦幻空灵/童话.md) |
 | <a href="宫崎骏画风/意大利旅游.png"><img src="preview/italy.jpg" width="340" height="191" /></a> | <a href="治愈/滑板治愈.png"><img src="preview/skate.jpg" width="340" height="191" /></a> | <a href="游戏/我的世界.png"><img src="preview/minecraft.jpg" width="340" height="191" /></a> |
 | **宫崎骏画风 · 意大利旅游**<br />[`宫崎骏画风/意大利旅游.md`](宫崎骏画风/意大利旅游.md) | **治愈 · 滑板**<br />[`治愈/滑板治愈.md`](治愈/滑板治愈.md) | **游戏 · 我的世界**<br />[`游戏/我的世界.md`](游戏/我的世界.md) |
-| <a href="武侠/蒸汽朋克-水城.png"><img src="preview/steampunk-water.jpg" width="340" height="191" /></a> | <a href="武侠/将军.png"><img src="preview/general.jpg" width="340" height="191" /></a> |  |
-| **武侠 · 蒸汽朋克（水城）**<br />[`武侠/蒸汽朋克-水城.md`](武侠/蒸汽朋克-水城.md) | **武侠 · 将军**<br />[`武侠/将军.md`](武侠/将军.md)（竖版原图，缩略图为裁切） |  |
+| <a href="武侠/蒸汽朋克-水城.png"><img src="preview/steampunk-water.jpg" width="340" height="191" /></a> | <a href="武侠/将军.png"><img src="preview/general.jpg" width="340" height="191" /></a> | <a href="武侠/骑士-正面.png"><img src="preview/knight-front.jpg" width="340" height="191" /></a> |
+| **武侠 · 蒸汽朋克（水城）**<br />[`武侠/蒸汽朋克-水城.md`](武侠/蒸汽朋克-水城.md) | **武侠 · 将军**<br />[`武侠/将军.md`](武侠/将军.md)（竖版原图，缩略图为裁切） | **武侠 · 骑士（正面）**<br />[`武侠/骑士-正面.md`](武侠/骑士-正面.md)（竖版原图，缩略图为裁切） |
 
 ---
 
@@ -197,7 +199,9 @@ image-prompt/
 │  ├─ 机甲-夜晚.md
 │  ├─ 机甲-夜晚.png
 │  ├─ 将军.md            # 人物反推提示词
-│  └─ 将军.png
+│  ├─ 将军.png
+│  ├─ 骑士-正面.md
+│  └─ 骑士-正面.png
 ├─ 梦幻空灵/
 │  ├─ prompt-one.md
 │  ├─ 童话.md
