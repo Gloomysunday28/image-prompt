@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Prompt Generator"
+  short_description: "基于仓库画风生成完整提示词，并按需直接生成对应图片"
+  default_prompt: "使用 $image-prompt-generator 根据我的题材和参考图选择仓库画风，生成完整 Prompt；如果我要求生图，直接生成图片。"

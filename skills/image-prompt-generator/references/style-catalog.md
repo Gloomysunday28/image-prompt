@@ -1,0 +1,118 @@
+# Style catalog
+
+Select one primary route from this catalog. Resolve listed source files from the repository root. Read the source only when closer fidelity or additional route details are needed.
+
+## Routing table
+
+| User intent | Primary route |
+| --- | --- |
+| 天宫、仙界、巨型东方建筑、渺小仙人 | Monumental celestial architecture |
+| 东方工业都市、蒸汽朋克水城、屋顶剑客 | Grounded industrial wuxia |
+| 机械剑圣、未来武士、都市战争、角色装甲 | Biomechanical wuxia |
+| 孙悟空、天庭、神话战争、古代神殿废墟 | Live-action Eastern mythology |
+| 巨大天象、现实旅行误入奇境、空灵尺度 | Dreamlike impossible nature |
+| 夏日、公路、海岸、青春、自由、治愈 | Healing travel adventure |
+| 复古旅行海报、手绘动画背景、装饰插画 | Retro illustrated travel |
+| iPhone 随手拍、深夜、孤独、生活流 | Imperfect candid emo |
+| 体素游戏、第一人称、HUD、可替换参数 | Parametric voxel game |
+
+## Monumental celestial architecture
+
+Use for immense heavenly palaces, immortal cities, cloud seas, celestial platforms, or a series sharing one divine-world language.
+
+- **Core DNA:** Chinese spatial order without locking to one dynasty; giant but quiet architecture; one or very few tiny figures; broad negative space; a single distant anchor with unmistakable weight.
+- **Composition:** Prefer asymmetric framing, such as a cropped giant structure or ancient pine on one edge, open cloud-sea space on the other, and a darker monumental core several kilometers away. For a series, rotate central axis, high/deep/level distance, one-sided pressure, curved leading line, and framed sky.
+- **Camera:** Human-eye height and 40–50mm compression for believable architectural photography unless the brief requires another view. Explicitly reject aerial-map views when ground-level awe matters.
+- **Motion:** Choose one slow phenomenon only—cloud waterfall, transparent sky-waterfall, celestial river, ripples, banners, crane, or low cloud flow.
+- **Material/light:** Weighty pale stone, pearl-gray stone, restrained vermilion timber, dark blue-green roofs, limited old gold, reflective shallow water, warm diffuse high-altitude light, transparent cool shadows.
+- **Avoid:** many equally dominant palaces, tiny or washed-out distant city, generic garden, cluttered ornament, gray haze, random magic glow, multiple competing dynamics.
+- **Sources:** `宏大风格/宫阙图 - (风格 1).md`, `宏大风格/prompt-two.md`.
+
+## Grounded industrial wuxia
+
+Use for Eastern steampunk cities, industrial water networks, rooftop swordsmen, practical mechanical infrastructure, or live-action retro-futurism.
+
+- **Core DNA:** live-action wuxia photographed inside a physically engineered city; traditional roofs and wood/stone buildings integrated with boilers, iron platforms, riveted bridges, supported pipes, docks, and working transport.
+- **Composition:** third-person rear view, high rooftop or industrial ledge, strong roof or bridge perspective leading into waterways and city depth; foreground character, detailed middle city, haze-reduced distant factories.
+- **Camera:** ARRI Alexa 35 family; 20–24mm wide cinema lens for city scale; avoid fisheye and game-like distortion.
+- **Material/light:** oxidized copper, black iron, rusted steel, wet stone, old wood, oil film, scratches, welds, dust, rain traces, natural steam diffusion; restrained sunset or overcast cold/warm separation.
+- **Character:** real adult actor proportions, weathered robes, leather and metal protection, fiber-level fabric, pores and individual hair strands, non-glowing steel weapon.
+- **Avoid:** floating buildings, magic machinery, clean PBR surfaces, decorative fog, fantasy glow, glossy CGI, concept-art skyline, orange-teal grading.
+- **Sources:** `武侠/蒸汽朋克.md`, `武侠/蒸汽朋克-水城.md`, `武侠/赛博朋克.md`.
+
+## Biomechanical wuxia
+
+Use for future sword saints, mechanical warriors, practical exoskeleton costumes, modern city warfare, or detailed character sheets.
+
+- **Core DNA:** a real actor wearing a buildable Eastern biomechanical suit, not a generic robot. Combine ancient armor layering, visible mechanical skeleton, practical joints, textiles, and a distinctive head silhouette.
+- **Scene mode:** use a functioning modern metropolis with mixed-age glass, concrete, residential, commercial, transit, and industrial layers. Keep most of the city intact even during war.
+- **Character mode:** break design into helmet, crown or mechanical ponytail, chest, shoulders, arms, skirt armor, legs, scarf/cape, weapon, joints, and wear. Define forbidden silhouettes as precisely as desired ones.
+- **Camera:** choose the story scale deliberately—50mm at roughly 5m for close pressure, or 35mm at 50–100m with the figure at 10%–20% for city dominance.
+- **Weather/light:** day storm or rain-soaked night; real lens droplets, imperfect exposure, sensor noise, motion blur, wet reflections, lightning or city light as environmental illumination rather than self-glow.
+- **Palette:** layered black metal plus dark red, old gold, silver-gray, and very limited blue components; never featureless pure black.
+- **Avoid:** NPC/Boss sheet appearance, superhero poster stance, clean plastic armor, self-emissive sword, empty/ruined city, uniform futuristic towers, Unreal Engine screenshot.
+- **Sources:** `武侠/机甲.md`, `武侠/机甲-白天.md`, `武侠/机甲-夜晚.md`, `武侠/将军.md`, `武侠/骑士-正面.md`.
+
+## Live-action Eastern mythology
+
+Use for mythological heroes, heavenly wars, ruined divine palaces, or IMAX-scale Eastern epics grounded in practical production.
+
+- **Core DNA:** real actor or creature performer, huge physical set, restrained VFX extension, mythic iconography with battle wear, and emotion expressed through posture and space rather than glowing power.
+- **Composition:** place the hero near one foreground side, use low or waist-level camera height, 24–28mm lens, and a diagonal weapon or architectural line leading into hundreds of meters of depth.
+- **Emotion:** choose one decisive aftermath or pre-battle beat. Quiet dominance can feel stronger than shouting or attack poses.
+- **Material/light:** real stone rubble, heavy dark metal, old gold, worn cloth, dust, smoke, cold overcast daylight, natural atmosphere, limited black-red accents.
+- **Scale:** keep anatomy normal; create power through near/far perspective, subject occupancy, camera height, and a long prop entering the closest foreground.
+- **Avoid:** ornate fantasy poster, gold divine rays, dream cloud sea, floating glow, crowd of deities, weightless ruins, short or ambiguous signature weapon.
+- **Source:** `西游记/悟空.md`.
+
+## Dreamlike impossible nature
+
+Use for ordinary travelers encountering impossible skies, giant celestial animals, liquid rainbow rivers, cosmic spirals, or surreal but emotionally believable landscapes.
+
+- **Core DNA:** first establish a convincing real place and camera position, then introduce one impossible phenomenon at overwhelming scale.
+- **Close-follow mode:** 24–28mm, camera 1.5–2.5m behind the subject, slightly offset 15°–20°, low tracking view, large foreground figure, deep fantasy world behind.
+- **First-person travel mode:** 20–24mm at adult eye height on a normal ferry, road, deck, or overlook. Validate railings, deck, sea, horizon, and travel context before revealing the sky anomaly.
+- **Simple illustration mode:** 9:16, low-angle small observer versus giant koi or celestial creature, minimal prose and extreme scale contrast.
+- **Light/material:** physically continuous water, cloud, atmosphere, reflections, backlight, and occlusion even when the phenomenon is impossible.
+- **Avoid:** poster layout, spacecraft cues, arbitrary fantasy objects, multiple sky spectacles, incorrect camera placement, subject too far away, decorative rather than physical water.
+- **Sources:** `梦幻空灵/prompt-one.md`, `梦幻空灵/童话.md`, `梦幻空灵/无人区-童话.md`.
+
+## Healing travel adventure
+
+Use for youth, summer movement, coastlines, mountain roads, freedom, travel, and optimistic animation-film moments.
+
+- **Core DNA:** small moving person inside a generous world; a road, center line, slope, coast, or valley creates a clear destination and emotional pull.
+- **Camera:** vertical 9:16 by default, 14mm low follow angle, strong depth and slight foreground motion blur.
+- **Environment:** sapphire/teal sea, green mountain volume, large white summer clouds, wildflowers, scattered lived-in buildings, bright directional sunlight.
+- **Color:** high saturation but natural relationships; clean air, luminous highlights, readable shadows, no gray filter.
+- **Avoid:** static pose, large centered portrait, flat postcard depth, random flowers without a leading line, gloomy grade.
+- **Source:** `治愈/滑板治愈.md`.
+
+## Retro illustrated travel
+
+Use for destination posters, decorative landscapes, classic vehicles, coastlines, or warm hand-drawn travel imagery.
+
+- **Core DNA:** modern pencil drawing plus 1950s–60s screen-printed travel-poster language, loose strokes, clear contours, bold harmonious color blocks, and decorative foreground framing.
+- **Composition:** panoramic destination, one moving vehicle or boat, foreground botanical frame, recognizable terrain, simple bright sky.
+- **Length:** keep the prompt compact unless the user requests exact layout control.
+- **Avoid:** photoreal camera jargon, 3D gloss, dense Negative Prompt, contemporary ad layout, muddy color.
+- **Source:** `宫崎骏画风/意大利旅游.md`. Translate the route into observable traits rather than relying only on an artist name when the user did not explicitly request one.
+
+## Imperfect candid emo
+
+Use for intimate daily-life portraits, phone snapshots, quiet loneliness, late-night interiors, or intentionally imperfect photography.
+
+- **Core DNA:** ordinary accidental iPhone capture, not a styled portrait; muted slightly cool color, uneven natural light, slight motion blur, mundane framing, subtle loneliness.
+- **Length/language:** default to a short English paragraph matching the source's directness.
+- **Avoid:** beauty retouching, fashion editorial pose, perfect symmetry, studio light, dramatic cinematic spectacle, polished commercial finish.
+- **Source:** `日常 emo/prompt-one.md`.
+
+## Parametric voxel game
+
+Use for reusable first-person voxel screenshots, game mockups, title/logo variants, mobs, held items, and explicit HUD state.
+
+- **Core DNA:** English prompt with `{argument name="..." default="..."}` placeholders; realistic light and volumetric atmosphere combined with cubic geometry.
+- **Required layers:** top-center 3D title, environment, left/right creatures, first-person held item, bottom HUD, exact health/experience/hunger values, and nine hotbar slots.
+- **Control:** describe each UI slot and number explicitly. Keep the player view, world geometry, and interface spatially separate.
+- **Avoid:** missing HUD, third-person player body, non-voxel geometry, unreadable logo, generic inventory.
+- **Source:** `游戏/我的世界.md`.

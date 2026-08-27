@@ -70,12 +70,12 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 
 ## 仓库 Skill
 
-仓库内置 [`image-prompt-maintainer`](skills/image-prompt-maintainer/SKILL.md) Skill，用于维护提示词、示例图和 README。它会精确保留用户提供的完整提示词，按指定中文路径创建或覆盖文件；收到示例图时，保存同名原图、生成 680×383 README 缩略图，并同步数量、导航、分类介绍、作品示例和目录树。
+仓库内置 [`image-prompt-generator`](skills/image-prompt-generator/SKILL.md) Skill，用于基于本仓库已经沉淀的视觉语言生成新的生图 Prompt。输入一个题材、画面想法或参考图，它会在东方神界巨构、真人武侠工业都市、生物机械剑圣、东方神话史诗、梦幻空灵、夏日治愈、复古旅行插画、日常 emo、体素游戏等路线中选择合适画风，生成可直接投喂模型的完整提示词；明确要求生图时也可以直接生成图片。
 
 在 Codex 中可直接调用：
 
 ```text
-使用 $image-prompt-maintainer 将这份提示词和示例图推到指定目录，并同步 README。
+使用 $image-prompt-generator，参考这张图的构图，按东方神话史诗路线直接生成一张新图，并附上最终 Prompt。
 ```
 
 ---
@@ -242,11 +242,12 @@ image-prompt/
 │  ├─ 悟空.md
 │  └─ 悟空.png
 ├─ skills/
-│  └─ image-prompt-maintainer/
+│  └─ image-prompt-generator/
 │     ├─ SKILL.md
 │     ├─ agents/openai.yaml
-│     ├─ references/readme-sync.md
-│     └─ scripts/make-preview.sh
+│     └─ references/
+│        ├─ prompt-blueprints.md
+│        └─ style-catalog.md
 └─ preview/          # README 作品示例用的 16:9 统一缩略图
 ```
 
