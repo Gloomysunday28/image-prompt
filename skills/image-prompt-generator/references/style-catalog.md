@@ -10,6 +10,7 @@ Select one primary route from this catalog. Resolve listed source files from the
 | 东方工业都市、蒸汽朋克水城、屋顶剑客 | Grounded industrial wuxia |
 | 机械剑圣、未来武士、都市战争、角色装甲 | Biomechanical wuxia |
 | 孙悟空、天庭、神话战争、古代神殿废墟 | Live-action Eastern mythology |
+| 巨型怪兽、都市灾难、极端仰拍、巨物恐惧 | Cinematic urban kaiju disaster |
 | 巨大天象、现实旅行误入奇境、空灵尺度 | Dreamlike impossible nature |
 | 夏日、公路、海岸、青春、自由、治愈 | Healing travel adventure |
 | 复古旅行海报、手绘动画背景、装饰插画 | Retro illustrated travel |
@@ -64,6 +65,18 @@ Use for mythological heroes, heavenly wars, ruined divine palaces, or IMAX-scale
 - **Scale:** keep anatomy normal; create power through near/far perspective, subject occupancy, camera height, and a long prop entering the closest foreground.
 - **Avoid:** ornate fantasy poster, gold divine rays, dream cloud sea, floating glow, crowd of deities, weightless ruins, short or ambiguous signature weapon.
 - **Source:** `西游记/悟空.md`.
+
+## Cinematic urban kaiju disaster
+
+Use for colossal creatures invading real modern cities, first-person street encounters, extreme megalophobia, or high-end live-action creature VFX.
+
+- **Core DNA:** the creature is a physically plausible living organism photographed at dangerous proximity; the city exists mainly as scale evidence rather than as a wide establishing view.
+- **Composition:** first-person adult eye height in a real street, camera tilted almost vertically upward, creature occupying roughly 85%–90%, with head, chest, wing roots, or limbs extending beyond every frame edge. Keep only small slices of buildings, traffic lights, vehicles, and street furniture.
+- **Camera:** choose a restrained 40–50mm cinema lens for crushing proximity; specify the upward tilt, mouth angle, distance, occlusion, and which anatomy crosses the frame.
+- **Creature anatomy:** make the species readable at first glance. Separate skull, jaw/beak, eyes, neck, chest, wing roots, feathers/scales/skin, mouth tissue, scars, and moisture. Keep living tissue distinct from stone, lava, armor, or magic effects.
+- **Material/light:** bright overcast storm exposure, open shadows, cool-white diffuse light, wet skin and keratin, visible pores, feather shafts, mucosa, saliva, rain, and restrained atmospheric haze that never hides the subject.
+- **Avoid:** complete body or wings, distant monster, skyline panorama, small mouth, generic dragon/dinosaur substitution, rock or lava body, rubber suit, plastic CGI, silhouette darkness, glowing eyes, magic light, excessive fog, game-concept framing.
+- **Source:** `怪兽/近距离大鸟.md`.
 
 ## Dreamlike impossible nature
 

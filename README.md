@@ -4,8 +4,8 @@
 > 每一条提示词都不是几个关键词的堆砌，而是一份可直接投喂给模型的**完整摄影/美术指令**：画幅、机位、焦段、空间层次、材质、光线、动态、负面清单一应俱全。
 
 <p>
-  <img alt="prompts" src="https://img.shields.io/badge/prompts-18-blue" />
-  <img alt="categories" src="https://img.shields.io/badge/categories-8-green" />
+  <img alt="prompts" src="https://img.shields.io/badge/prompts-19-blue" />
+  <img alt="categories" src="https://img.shields.io/badge/categories-9-green" />
   <img alt="lang" src="https://img.shields.io/badge/lang-中文%20%2F%20English-orange" />
 </p>
 
@@ -21,6 +21,7 @@
   - [宏大风格 · 东方神界巨构](#宏大风格--东方神界巨构)
   - [武侠 · 蒸汽朋克与机甲剑圣](#武侠--蒸汽朋克与机甲剑圣)
   - [西游记 · 齐天大圣](#西游记--齐天大圣)
+  - [怪兽 · 都市巨物灾难](#怪兽--都市巨物灾难)
   - [梦幻空灵 · 超现实天象](#梦幻空灵--超现实天象)
   - [治愈 · 夏日旅行](#治愈--夏日旅行)
   - [宫崎骏画风 · 复古旅行海报](#宫崎骏画风--复古旅行海报)
@@ -70,7 +71,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 
 ## 仓库 Skill
 
-仓库内置 [`image-prompt-generator`](skills/image-prompt-generator/SKILL.md) Skill，用于基于本仓库已经沉淀的视觉语言生成新的生图 Prompt。输入一个题材、画面想法或参考图，它会在东方神界巨构、真人武侠工业都市、生物机械剑圣、东方神话史诗、梦幻空灵、夏日治愈、复古旅行插画、日常 emo、体素游戏等路线中选择合适画风，生成可直接投喂模型的完整提示词；明确要求生图时也可以直接生成图片。
+仓库内置 [`image-prompt-generator`](skills/image-prompt-generator/SKILL.md) Skill，用于基于本仓库已经沉淀的视觉语言生成新的生图 Prompt。输入一个题材、画面想法或参考图，它会在东方神界巨构、真人武侠工业都市、生物机械剑圣、东方神话史诗、都市巨型怪兽灾难、梦幻空灵、夏日治愈、复古旅行插画、日常 emo、体素游戏等路线中选择合适画风，生成可直接投喂模型的完整提示词；明确要求生图时也可以直接生成图片。
 
 在 Codex 中可直接调用：
 
@@ -95,6 +96,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | 武侠 | [将军.md](武侠/将军.md) | 9:16 | 中 | 生物机械武士半身立绘，人物反推提示词 |
 | 武侠 | [骑士-正面.md](武侠/骑士-正面.md) | 9:16 | 长 | 全覆式头盔机械武将正面全身立绘 |
 | 西游记 | [悟空.md](西游记/悟空.md) | 16:9 | 长 | 大战后的凌霄宝殿，齐天大圣独坐废墟 |
+| 怪兽 | [近距离大鸟.md](怪兽/近距离大鸟.md) | 16:9 | 长 | 都市街道极致仰视，山岳级火山鸟兽扑向镜头 |
 | 梦幻空灵 | [prompt-one.md](梦幻空灵/prompt-one.md) | 9:16 | 短 | 巨型锦鲤遨游星云，低角度仰拍 |
 | 梦幻空灵 | [童话.md](梦幻空灵/童话.md) | 16:9 | 长 | 七彩天河逆光，第三人称跟拍探索感 |
 | 梦幻空灵 | [无人区-童话.md](梦幻空灵/无人区-童话.md) | 16:9 | 长 | 渡轮甲板仰望巨大星河漩涡 |
@@ -124,6 +126,10 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 ### 西游记 · 齐天大圣
 
 [`悟空.md`](西游记/悟空.md)：大战结束后的凌霄宝殿废墟，孙悟空独坐左侧前景。使用 24mm–28mm 低机位广角与侧后方 30°–45° 构图，让超长金箍棒从手中斜向延伸至右下方近景，以强烈透视串联人物和数百米纵深的天庭残骸。人物不怒吼、不摆英雄姿势，核心情绪是「王已经坐下了」；示例图见 [`悟空.png`](西游记/悟空.png)。
+
+### 怪兽 · 都市巨物灾难
+
+[`近距离大鸟.md`](怪兽/近距离大鸟.md)：第一人称站在现代都市街道中央，以 40mm–50mm 镜头向上倾斜 80°–85°，让山岳级史前鸟兽贴近镜头并占据画面 85%–90%。构图拒绝完整轮廓，只保留超出画框的巨喙、胸腔、翼根和少量摩天楼尺度参照；明亮阴天曝光确保湿润口腔、角质、活体皮肤和硬质羽毛清晰可见。示例图见 [`近距离大鸟.png`](怪兽/近距离大鸟.png)。
 
 ### 梦幻空灵 · 超现实天象
 
@@ -164,8 +170,8 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | **宫崎骏画风 · 意大利旅游**<br />[`宫崎骏画风/意大利旅游.md`](宫崎骏画风/意大利旅游.md) | **治愈 · 滑板**<br />[`治愈/滑板治愈.md`](治愈/滑板治愈.md) | **游戏 · 我的世界**<br />[`游戏/我的世界.md`](游戏/我的世界.md) |
 | <a href="武侠/蒸汽朋克-水城.png"><img src="preview/steampunk-water.jpg" width="340" height="191" /></a> | <a href="武侠/将军.png"><img src="preview/general.jpg" width="340" height="191" /></a> | <a href="武侠/骑士-正面.png"><img src="preview/knight-front.jpg" width="340" height="191" /></a> |
 | **武侠 · 蒸汽朋克（水城）**<br />[`武侠/蒸汽朋克-水城.md`](武侠/蒸汽朋克-水城.md) | **武侠 · 将军**<br />[`武侠/将军.md`](武侠/将军.md)（竖版原图，缩略图为裁切） | **武侠 · 骑士（正面）**<br />[`武侠/骑士-正面.md`](武侠/骑士-正面.md)（竖版原图，缩略图为裁切） |
-| <a href="西游记/悟空.png"><img src="preview/wukong.jpg" width="340" height="191" /></a> |  |  |
-| **西游记 · 悟空**<br />[`西游记/悟空.md`](西游记/悟空.md) |  |  |
+| <a href="西游记/悟空.png"><img src="preview/wukong.jpg" width="340" height="191" /></a> | <a href="怪兽/近距离大鸟.png"><img src="preview/kaiju-bird.jpg" width="340" height="191" /></a> |  |
+| **西游记 · 悟空**<br />[`西游记/悟空.md`](西游记/悟空.md) | **怪兽 · 近距离大鸟**<br />[`怪兽/近距离大鸟.md`](怪兽/近距离大鸟.md) |  |
 
 ---
 
@@ -241,6 +247,9 @@ image-prompt/
 ├─ 西游记/
 │  ├─ 悟空.md
 │  └─ 悟空.png
+├─ 怪兽/
+│  ├─ 近距离大鸟.md
+│  └─ 近距离大鸟.png
 ├─ skills/
 │  └─ image-prompt-generator/
 │     ├─ SKILL.md
