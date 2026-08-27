@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Prompt Maintainer"
+  short_description: "维护提示词、示例图片与 README 的仓库工作流"
+  default_prompt: "使用 $image-prompt-maintainer 将提示词和示例图写入仓库并同步 README。"

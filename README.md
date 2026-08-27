@@ -16,6 +16,7 @@
 - [这是什么](#这是什么)
 - [它能做什么](#它能做什么)
 - [快速开始](#快速开始)
+- [仓库 Skill](#仓库-skill)
 - [提示词导航](#提示词导航)
   - [宏大风格 · 东方神界巨构](#宏大风格--东方神界巨构)
   - [武侠 · 蒸汽朋克与机甲剑圣](#武侠--蒸汽朋克与机甲剑圣)
@@ -64,6 +65,18 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 2. 打开对应 `.md`，**全文复制**（包含 Negative Prompt 段落）；
 3. 粘贴到图像模型，按文件开头标注的画幅设置比例（`16:9` 或 `9:16`）；
 4. 不满意时**只改一个变量**（天气、时间、机位高度、人物尺寸），不要整段重写——这是这套提示词保持稳定的关键。
+
+---
+
+## 仓库 Skill
+
+仓库内置 [`image-prompt-maintainer`](skills/image-prompt-maintainer/SKILL.md) Skill，用于维护提示词、示例图和 README。它会精确保留用户提供的完整提示词，按指定中文路径创建或覆盖文件；收到示例图时，保存同名原图、生成 680×383 README 缩略图，并同步数量、导航、分类介绍、作品示例和目录树。
+
+在 Codex 中可直接调用：
+
+```text
+使用 $image-prompt-maintainer 将这份提示词和示例图推到指定目录，并同步 README。
+```
 
 ---
 
@@ -228,6 +241,12 @@ image-prompt/
 ├─ 西游记/
 │  ├─ 悟空.md
 │  └─ 悟空.png
+├─ skills/
+│  └─ image-prompt-maintainer/
+│     ├─ SKILL.md
+│     ├─ agents/openai.yaml
+│     ├─ references/readme-sync.md
+│     └─ scripts/make-preview.sh
 └─ preview/          # README 作品示例用的 16:9 统一缩略图
 ```
 
