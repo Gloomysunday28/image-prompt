@@ -65,6 +65,32 @@ def pick_distinct(rng, pool, k):
     return out
 
 
+def resolve_medium(route, uni, wanted, rng, wild=False):
+    """决定这次用什么媒介。用户指定 > 随机(wild) > 路线默认。"""
+    avail = route.get("可用媒介") or [route.get("默认媒介", "实拍摄影")]
+    if wanted:
+        hit = [m for m in avail if wanted in m]
+        if hit:
+            return hit[0]
+        # 用户点名了这条路线不支持的媒介，照给，但标出来
+        allm = [m["名称"] for m in uni.get("媒介", [])]
+        hit = [m for m in allm if wanted in m]
+        if hit:
+            return hit[0] + "（本路线非常规媒介，按用户指定）"
+        return wanted
+    if wild and len(avail) > 1:
+        return rng.choice(avail)
+    return route.get("默认媒介", avail[0])
+
+
+def medium_line(name, uni):
+    base = name.split("（")[0]
+    for m in uni.get("媒介", []):
+        if m["名称"] == base:
+            return [f"媒介: {name}", f"  渲染: {m['渲染']}", f"  忌: {m['忌']}"]
+    return [f"媒介: {name}"]
+
+
 def route_header(key, route):
     return [
         f"路线: {route['name']}  [{key}]",
@@ -110,6 +136,9 @@ def cmd_scene(data, args):
         route = routes[key]
 
         lines = route_header(key, route)
+        lines += medium_line(
+            resolve_medium(route, uni, args.medium, rng, args.wild), uni
+        )
         for axis, value in base_seed(rng, route).items():
             lines.append(f"{axis}: {value}")
         lines.append(f"叙事时刻: {rng.choice(uni['叙事时刻'])}")
@@ -161,6 +190,8 @@ def cmd_brief(data, briefs, args):
             route = routes[key]
             print(f"--- 第 {i} 张 ---")
             print("\n".join(route_header(key, route)))
+            print("\n".join(medium_line(
+                resolve_medium(route, uni, args.medium, rng, wild), uni)))
             for axis, value in base_seed(rng, route).items():
                 print(f"{axis}: {value}")
             print(f"叙事时刻: {rng.choice(uni['叙事时刻'])}")
@@ -171,6 +202,8 @@ def cmd_brief(data, briefs, args):
     key = args.route or rng.choice(list(routes))
     route = routes[key]
     print("\n".join(route_header(key, route)))
+    print("\n".join(medium_line(
+        resolve_medium(route, uni, args.medium, rng, wild), uni)))
 
     if mode == "hybrid":
         print("路线: 两张同题材，第二张被另一条路线的语法改写")
@@ -254,21 +287,25 @@ def main():
     b.add_argument("-r", "--route", help="固定路线 key")
     b.add_argument("-n", "--count", type=int, help="覆盖任务形态自带的张数")
     b.add_argument("-f", "--form", type=int, help="指定任务形态编号，见 --forms")
-    b.add_argument("--wild", action="store_true", help="强制跨路线杂交")
+    b.add_argument("-m", "--medium", help="指定媒介，如 动画 / 水彩 / 胶片 / 厚涂 / 海报 / 实拍")
+    b.add_argument("--wild", action="store_true", help="强制跨路线杂交 + 随机媒介")
     b.add_argument("--seed", type=int, help="固定随机种子，便于复现")
 
     s = sub.add_parser("scene", help="只要随机画面，不要命题")
     s.add_argument("-n", "--count", type=int, default=3)
     s.add_argument("-r", "--route", help="固定路线 key")
+    s.add_argument("-m", "--medium", help="指定媒介")
     s.add_argument("--wild", action="store_true")
     s.add_argument("--seed", type=int)
 
     p.add_argument("--list", action="store_true", help="列出全部路线 key")
     p.add_argument("--forms", action="store_true", help="列出全部任务形态")
+    p.add_argument("--media", action="store_true", help="列出全部媒介")
     for flag, kw in (
         ("-r", {"dest": "route"}),
         ("-n", {"dest": "count", "type": int}),
         ("-f", {"dest": "form", "type": int}),
+        ("-m", {"dest": "medium"}),
     ):
         p.add_argument(flag, **kw)
     p.add_argument("--wild", action="store_true")
@@ -281,6 +318,10 @@ def main():
     if args.list:
         for k, v in data["routes"].items():
             print(f"{k:24s} {v['name']}  <- {v['sources'][0]}")
+        return
+    if args.media:
+        for m in data["universal"]["媒介"]:
+            print(f"{m['名称']}\n  渲染: {m['渲染']}\n  忌: {m['忌']}")
         return
     if args.forms:
         for i, f in enumerate(briefs["任务形态"], 1):
