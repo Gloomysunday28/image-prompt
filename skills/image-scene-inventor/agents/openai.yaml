@@ -1,4 +1,4 @@
 interface:
   display_name: "Image Scene Inventor"
-  short_description: "基于仓库模板想场景，直接给出中英双版完整 Prompt"
-  default_prompt: "使用 $image-scene-inventor，读我仓库里的模板，帮我想场景并给出中英双版完整 Prompt。"
+  short_description: "识别模板视觉 DNA，续拍新场景并输出双语 Prompt"
+  default_prompt: "使用 $image-scene-inventor，选择最匹配的主模板，保留它的视觉 DNA，帮我续拍一个新场景并给出中英双版完整 Prompt。"
