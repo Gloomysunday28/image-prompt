@@ -4,7 +4,7 @@
 > 每一条提示词都不是几个关键词的堆砌，而是一份可直接投喂给模型的**完整摄影/美术指令**：画幅、机位、焦段、空间层次、材质、光线、动态、负面清单一应俱全。
 
 <p>
-  <img alt="prompts" src="https://img.shields.io/badge/prompts-19-blue" />
+  <img alt="prompts" src="https://img.shields.io/badge/prompts-20-blue" />
   <img alt="categories" src="https://img.shields.io/badge/categories-9-green" />
   <img alt="lang" src="https://img.shields.io/badge/lang-中文%20%2F%20English-orange" />
 </p>
@@ -101,6 +101,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | 梦幻空灵 | [童话.md](梦幻空灵/童话.md) | 16:9 | 长 | 七彩天河逆光，第三人称跟拍探索感 |
 | 梦幻空灵 | [无人区-童话.md](梦幻空灵/无人区-童话.md) | 16:9 | 长 | 渡轮甲板仰望巨大星河漩涡 |
 | 治愈 | [滑板治愈.md](治愈/滑板治愈.md) | 9:16 | 中 | 滑板少年冲下海岸公路的夏日治愈画面 |
+| 治愈 | [夏日海边.md](治愈/夏日海边.md) | 9:16 | 长 | 复古电车掠过盛夏海滨山城，海湾与积雨云闪耀通透 |
 | 宫崎骏画风 | [意大利旅游.md](宫崎骏画风/意大利旅游.md) | 不限 | 短 | 阿马尔菲海岸复古旅行海报插画 |
 | 日常 emo | [prompt-one.md](日常%20emo/prompt-one.md) | 竖版 | 短 | 让模型「拍」一张深夜 emo 的手机快照（英文） |
 | 游戏 | [我的世界.md](游戏/我的世界.md) | 16:9 | 短 | 体素世界第一人称游戏截图模板（英文，含变量） |
@@ -143,6 +144,8 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 
 [`滑板治愈.md`](治愈/滑板治愈.md)：9:16 竖版，日系动画背景美术 × 高质量 3D CGI 写实质感。14mm 超广角低机位跟拍，少年踩滑板沿陡坡公路冲向海岸，人物刻意画小以突出世界尺度，公路的黄色中心线充当视觉引导线。
 
+[`夏日海边.md`](治愈/夏日海边.md)：9:16 竖版的梦幻真实摄影。摄影机从铁路上方 15–25 米俯视日本盛夏海滨山城，以近距离掠过的红橙色复古电车、层叠住宅与架空电线构成密集前景；中景是宝石般闪耀的巨大蓝绿色海湾，海平线两侧堆叠复杂积雨云，顶部盛夏太阳带来真实星芒与镜头眩光。示例图见 [`夏日海边.png`](治愈/夏日海边.png)。
+
 ### 宫崎骏画风 · 复古旅行海报
 
 [`意大利旅游.md`](宫崎骏画风/意大利旅游.md)：现代铅笔插画 + 1950–60 年代旅行海报风。阿马尔菲海岸悬崖公路、白色老爷车、地中海帆船、前景柠檬枝框景，丝网印刷质感与松散笔触。整条提示词只有一段，适合当作短提示词的写法参考。
@@ -170,8 +173,8 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | **宫崎骏画风 · 意大利旅游**<br />[`宫崎骏画风/意大利旅游.md`](宫崎骏画风/意大利旅游.md) | **治愈 · 滑板**<br />[`治愈/滑板治愈.md`](治愈/滑板治愈.md) | **游戏 · 我的世界**<br />[`游戏/我的世界.md`](游戏/我的世界.md) |
 | <a href="武侠/蒸汽朋克-水城.png"><img src="preview/steampunk-water.jpg" width="340" height="191" /></a> | <a href="武侠/将军.png"><img src="preview/general.jpg" width="340" height="191" /></a> | <a href="武侠/骑士-正面.png"><img src="preview/knight-front.jpg" width="340" height="191" /></a> |
 | **武侠 · 蒸汽朋克（水城）**<br />[`武侠/蒸汽朋克-水城.md`](武侠/蒸汽朋克-水城.md) | **武侠 · 将军**<br />[`武侠/将军.md`](武侠/将军.md)（竖版原图，缩略图为裁切） | **武侠 · 骑士（正面）**<br />[`武侠/骑士-正面.md`](武侠/骑士-正面.md)（竖版原图，缩略图为裁切） |
-| <a href="西游记/悟空.png"><img src="preview/wukong.jpg" width="340" height="191" /></a> | <a href="怪兽/近距离大鸟.png"><img src="preview/kaiju-bird.jpg" width="340" height="191" /></a> |  |
-| **西游记 · 悟空**<br />[`西游记/悟空.md`](西游记/悟空.md) | **怪兽 · 近距离大鸟**<br />[`怪兽/近距离大鸟.md`](怪兽/近距离大鸟.md) |  |
+| <a href="西游记/悟空.png"><img src="preview/wukong.jpg" width="340" height="191" /></a> | <a href="怪兽/近距离大鸟.png"><img src="preview/kaiju-bird.jpg" width="340" height="191" /></a> | <a href="治愈/夏日海边.png"><img src="preview/summer-coast.jpg" width="340" height="191" /></a> |
+| **西游记 · 悟空**<br />[`西游记/悟空.md`](西游记/悟空.md) | **怪兽 · 近距离大鸟**<br />[`怪兽/近距离大鸟.md`](怪兽/近距离大鸟.md) | **治愈 · 夏日海边**<br />[`治愈/夏日海边.md`](治愈/夏日海边.md)（竖版原图，缩略图为适配） |
 
 ---
 
@@ -236,7 +239,9 @@ image-prompt/
 │  └─ 无人区-童话.md
 ├─ 治愈/
 │  ├─ 滑板治愈.md
-│  └─ 滑板治愈.png
+│  ├─ 滑板治愈.png
+│  ├─ 夏日海边.md
+│  └─ 夏日海边.png
 ├─ 宫崎骏画风/
 │  ├─ 意大利旅游.md
 │  └─ 意大利旅游.png

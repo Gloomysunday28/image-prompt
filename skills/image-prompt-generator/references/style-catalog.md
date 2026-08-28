@@ -12,7 +12,7 @@ Select one primary route from this catalog. Resolve listed source files from the
 | 孙悟空、天庭、神话战争、古代神殿废墟 | Live-action Eastern mythology |
 | 巨型怪兽、都市灾难、极端仰拍、巨物恐惧 | Cinematic urban kaiju disaster |
 | 巨大天象、现实旅行误入奇境、空灵尺度 | Dreamlike impossible nature |
-| 夏日、公路、海岸、青春、自由、治愈 | Healing travel adventure |
+| 夏日、公路、海岸、青春、自由、海滨山城、复古电车、治愈 | Healing travel adventure |
 | 复古旅行海报、手绘动画背景、装饰插画 | Retro illustrated travel |
 | iPhone 随手拍、深夜、孤独、生活流 | Imperfect candid emo |
 | 体素游戏、第一人称、HUD、可替换参数 | Parametric voxel game |
@@ -92,14 +92,15 @@ Use for ordinary travelers encountering impossible skies, giant celestial animal
 
 ## Healing travel adventure
 
-Use for youth, summer movement, coastlines, mountain roads, freedom, travel, and optimistic animation-film moments.
+Use for youth, summer movement, coastlines, mountain roads, seaside towns, local trains, freedom, travel, and heightened photoreal summer memories.
 
-- **Core DNA:** small moving person inside a generous world; a road, center line, slope, coast, or valley creates a clear destination and emotional pull.
-- **Camera:** vertical 9:16 by default, 14mm low follow angle, strong depth and slight foreground motion blur.
-- **Environment:** sapphire/teal sea, green mountain volume, large white summer clouds, wildflowers, scattered lived-in buildings, bright directional sunlight.
+- **Core DNA:** a decisive foreground movement opens into a generous summer world; a road, rail line, slope, coast, or valley creates a clear destination and emotional pull.
+- **Camera:** vertical 9:16 by default. Use a 14mm low follow angle for character-led motion, or a 20–24mm high hillside overlook 15–25m above a railway for photoreal coastal-town scale.
+- **Environment:** sapphire/teal sea, green mountain volume, large layered white summer clouds, wildflowers, lived-in buildings, utility poles and cables, bright directional sunlight.
+- **Photographic coastal mode:** place a close local train and crossing infrastructure across the foreground, let dense hillside homes descend around both sides of a wide bay, keep the horizon near 45%–48%, and build continuous cumulonimbus complexity rather than two isolated cloud towers. Use physically believable sunstars, water glitter, lens flare, and motion blur.
 - **Color:** high saturation but natural relationships; clean air, luminous highlights, readable shadows, no gray filter.
-- **Avoid:** static pose, large centered portrait, flat postcard depth, random flowers without a leading line, gloomy grade.
-- **Source:** `治愈/滑板治愈.md`.
+- **Avoid:** static pose, large centered portrait, flat postcard depth, central-only village, straight centered road, empty sky, isolated symmetric cloud towers, generic tourist photography, random flowers without a leading line, gloomy grade, illustration drift when realism is requested.
+- **Sources:** `治愈/滑板治愈.md`, `治愈/夏日海边.md`.
 
 ## Retro illustrated travel
 
