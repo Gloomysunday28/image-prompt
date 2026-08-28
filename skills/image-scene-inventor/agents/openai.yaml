@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Scene Inventor"
+  short_description: "替你想画面：掷骰生成命题与场景，直接给出中英双版完整 Prompt"
+  default_prompt: "使用 $image-scene-inventor，我不知道做什么，随便给我一个命题，直接出中英双版完整 Prompt。"

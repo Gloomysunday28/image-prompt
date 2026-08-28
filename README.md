@@ -71,12 +71,38 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 
 ## 仓库 Skill
 
-仓库内置 [`image-prompt-generator`](skills/image-prompt-generator/SKILL.md) Skill，用于基于本仓库已经沉淀的视觉语言生成新的生图 Prompt。输入一个题材、画面想法或参考图，它会在东方神界巨构、真人武侠工业都市、生物机械剑圣、东方神话史诗、都市巨型怪兽灾难、梦幻空灵、夏日治愈、复古旅行插画、日常 emo、体素游戏等路线中选择合适画风，生成可直接投喂模型的完整提示词；明确要求生图时也可以直接生成图片。
+仓库内置两个 Skill，分工是「你有想法」和「你没想法」。
 
-在 Codex 中可直接调用：
+### `image-prompt-generator` · 有想法时把它写成 Prompt
+
+[`skills/image-prompt-generator/`](skills/image-prompt-generator/SKILL.md)。输入一个题材、画面想法或参考图，它会在东方神界巨构、真人武侠工业都市、生物机械剑圣、东方神话史诗、都市巨型怪兽灾难、梦幻空灵、夏日治愈、复古旅行插画、日常 emo、体素游戏等路线中选择合适画风，生成可直接投喂模型的完整提示词；明确要求生图时也可以直接生成图片。
 
 ```text
 使用 $image-prompt-generator，参考这张图的构图，按东方神话史诗路线直接生成一张新图，并附上最终 Prompt。
+```
+
+### `image-scene-inventor` · 没想法时替你想画面
+
+[`skills/image-scene-inventor/`](skills/image-scene-inventor/SKILL.md)。解决「模板都在，但不知道拿模板做什么」。它从**命题层**起步，零输入可用：
+
+1. **做什么事** —— [`scripts/roll.py`](skills/image-scene-inventor/scripts/roll.py) 先掷一个命题：任务形态（三联「之前/当中/之后」、远中近、九宫格、只换一个变量的 A/B、同一瞬间两个视角、命题作文、混血实验、逆向拍禁令、单项练习……13 种）+ 母题 + 约束 + 交付画幅。
+2. **做成什么画面** —— 再由命题决定锁哪条路线、哪条轴是变量，在 360+ 条具体画面选项里掷出每一张的场景种子（情境 / 尺度锚点 / 唯一动势 / 镜头杠杆 / 时间光线 / 情绪落点 + 叙事时刻 + 反差注入）。
+3. **推开模板** —— 按 [`references/template-levers.md`](skills/image-scene-inventor/references/template-levers.md) 的「锁死项 / 自由变量 / 高收益改法」把种子推成真正区别于模板默认样张的画面。
+4. **直接出 Prompt** —— 每张给**中英两版**完整提示词（数字、材质、光源、Negative 条目逐项对应）；组图共享同一段设定块，只有变化轴不同，风格自然统一。
+
+```text
+使用 $image-scene-inventor，我不知道做什么，随便给我一个命题，直接出完整 Prompt。
+使用 $image-scene-inventor，就用怪兽那套模板，这个模板还能拍什么？要野一点。
+```
+
+也可以自己先掷骰看看：
+
+```bash
+python3 skills/image-scene-inventor/scripts/roll.py            # 零输入：直接给命题
+python3 skills/image-scene-inventor/scripts/roll.py --forms    # 13 种任务形态
+python3 skills/image-scene-inventor/scripts/roll.py --list     # 10 条路线
+python3 skills/image-scene-inventor/scripts/roll.py -f 1 -r urban-kaiju   # 指定玩法 + 模板
+python3 skills/image-scene-inventor/scripts/roll.py scene -n 3 --wild     # 只要随机画面
 ```
 
 ---
@@ -256,12 +282,21 @@ image-prompt/
 │  ├─ 近距离大鸟.md
 │  └─ 近距离大鸟.png
 ├─ skills/
-│  └─ image-prompt-generator/
+│  ├─ image-prompt-generator/     # 有想法 → 写成完整 Prompt
+│  │  ├─ SKILL.md
+│  │  ├─ agents/openai.yaml
+│  │  └─ references/
+│  │     ├─ prompt-blueprints.md
+│  │     └─ style-catalog.md
+│  └─ image-scene-inventor/       # 没想法 → 掷骰生成命题 + 场景 + 完整 Prompt
 │     ├─ SKILL.md
 │     ├─ agents/openai.yaml
-│     └─ references/
-│        ├─ prompt-blueprints.md
-│        └─ style-catalog.md
+│     ├─ assets/briefs.json       # 命题骰子：做什么事
+│     ├─ assets/axes.json         # 场景骰子：做成什么画面
+│     ├─ references/
+│     │  ├─ template-levers.md  # 每条路线：锁死项 / 自由变量 / 高收益改法
+│     │  └─ prompt-structure.md # 节序 / 数字要求 / 中英双语 / Negative
+│     └─ scripts/roll.py
 └─ preview/          # README 作品示例用的 16:9 统一缩略图
 ```
 
