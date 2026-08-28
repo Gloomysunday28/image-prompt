@@ -81,28 +81,18 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 使用 $image-prompt-generator，参考这张图的构图，按东方神话史诗路线直接生成一张新图，并附上最终 Prompt。
 ```
 
-### `image-scene-inventor` · 没想法时替你想画面
+### `image-scene-inventor` · 没想法时替你想场景
 
-[`skills/image-scene-inventor/`](skills/image-scene-inventor/SKILL.md)。解决「模板都在，但不知道拿模板做什么」。它从**命题层**起步，零输入可用：
+[`skills/image-scene-inventor/`](skills/image-scene-inventor/SKILL.md)。解决「模板都在，但不知道拿模板做什么」。
 
-1. **做什么事** —— [`scripts/roll.py`](skills/image-scene-inventor/scripts/roll.py) 先掷一个命题：任务形态（三联「之前/当中/之后」、远中近、九宫格、只换一个变量的 A/B、同一瞬间两个视角、命题作文、混血实验、逆向拍禁令、单项练习……13 种）+ 母题 + 约束 + 交付画幅。
-2. **做成什么画面** —— 再由命题决定锁哪条路线、哪条轴是变量，在 360+ 条具体画面选项里掷出每一张的场景种子（情境 / 尺度锚点 / 唯一动势 / 镜头杠杆 / 时间光线 / 情绪落点 + 叙事时刻 + 反差注入）。
-3. **推开模板** —— 按 [`references/template-levers.md`](skills/image-scene-inventor/references/template-levers.md) 的「锁死项 / 自由变量 / 高收益改法」把种子推成真正区别于模板默认样张的画面。
-4. **直接出 Prompt** —— 每张给**中英两版**完整提示词（数字、材质、光源、Negative 条目逐项对应）；组图共享同一段设定块，只有变化轴不同，风格自然统一。
+它**唯一的上下文就是本仓库里的模板文件**，没有任何预设的风格表或场景池：你说一个词，它去对应目录读模板全文，在模板已经锁死的世界里换情境、时刻、天气、动作、视角，然后按模板自己的语言和精度写出新 Prompt（中英两版）。
+
+关键约定是**模板即定义**——你说「治愈系」，就以 [`治愈/`](治愈) 里那两份为准。那两份写的是 `photorealistic`、`禁止插画感、动漫感`，所以这里的治愈系就是实拍，不是网上通俗理解的插画感。任何风格词都按这个规矩办。
 
 ```text
-使用 $image-scene-inventor，我不知道做什么，随便给我一个命题，直接出完整 Prompt。
-使用 $image-scene-inventor，就用怪兽那套模板，这个模板还能拍什么？要野一点。
-```
-
-也可以自己先掷骰看看：
-
-```bash
-python3 skills/image-scene-inventor/scripts/roll.py            # 零输入：直接给命题
-python3 skills/image-scene-inventor/scripts/roll.py --forms    # 13 种任务形态
-python3 skills/image-scene-inventor/scripts/roll.py --list     # 10 条路线
-python3 skills/image-scene-inventor/scripts/roll.py -f 1 -r urban-kaiju   # 指定玩法 + 模板
-python3 skills/image-scene-inventor/scripts/roll.py scene -n 3 --wild     # 只要随机画面
+基于我的治愈模板，帮我想三个场景，直接给中英双版完整 Prompt
+宏大风格那套还能拍什么？
+我不知道做什么，列一下仓库里有哪些风格，挑一个帮我想
 ```
 
 ---
@@ -288,15 +278,9 @@ image-prompt/
 │  │  └─ references/
 │  │     ├─ prompt-blueprints.md
 │  │     └─ style-catalog.md
-│  └─ image-scene-inventor/       # 没想法 → 掷骰生成命题 + 场景 + 完整 Prompt
+│  └─ image-scene-inventor/       # 没想法 → 读模板想场景 + 中英双版 Prompt
 │     ├─ SKILL.md
-│     ├─ agents/openai.yaml
-│     ├─ assets/briefs.json       # 命题骰子：做什么事
-│     ├─ assets/axes.json         # 场景骰子：做成什么画面
-│     ├─ references/
-│     │  ├─ template-levers.md  # 每条路线：锁死项 / 自由变量 / 高收益改法
-│     │  └─ prompt-structure.md # 节序 / 数字要求 / 中英双语 / Negative
-│     └─ scripts/roll.py
+│     └─ agents/openai.yaml
 └─ preview/          # README 作品示例用的 16:9 统一缩略图
 ```
 
