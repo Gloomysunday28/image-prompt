@@ -30,8 +30,13 @@ description: Invent image scenes and write finished bilingual prompts strictly o
 
 ## 输出
 
-- **每份 Prompt 出中英两版**，两版的数字、材质、光线、Negative 条目逐项对应。英文用摄影或美术的行业术语，不写翻译腔。
-- **正向部分不写否定句。** 不要写「这不是插画」「不是海报」——模型对正文里的 `插画`、`海报` 一样会产生注意力。所有排除项进 Negative Prompt，且写成术语（`illustration, poster layout`），不写成句子。模板自己的「禁止：…」那一行就是现成的 Negative 素材。
+每份 Prompt 出**两个互相独立的版本**，各自完整、各自能直接粘贴：
+
+- **中文版：纯中文，不许出现英文。** 模板里的英文术语必须译出，不能照抄。例如 `photorealistic` → 写实摄影质感，`turquoise cyan` → 通透青绿，`sapphire blue` → 浓郁宝蓝，`glittering specular reflections` → 密集银白镜面反光，`anamorphic lens flare` → 变形宽银幕镜头眩光，`sunstar` → 太阳星芒，`bloom` → 高光溢出。**唯一例外**是胶片、器材、品牌的型号名（Kodak Ektar、Fujifilm Velvia、ARRI Alexa），它们没有通行中译，保留原名。
+- **英文版：纯英文，不许出现中文。**
+- 两版的数字、构图、材质、光线、Negative 条目**逐项对应**，只有语言不同。
+- **Negative Prompt 跟着各自版本的语言走**：中文版写中文，英文版写英文。模板自己的「禁止：…」那一行就是现成素材，中文版直接沿用它的原措辞，不要翻译成英文再塞回来。
+- **正向部分不写否定句。** 不要写「这不是插画」「不是海报」——模型对正文里的 `插画`、`海报` 一样会产生注意力。排除项一律进 Negative Prompt，写成并列的术语，不写成句子。
 - 成组图：共享设定逐字一致，只让一条变量变化。
 - 直接给成品，不留占位符，不夹解释。
 
@@ -40,4 +45,5 @@ description: Invent image scenes and write finished bilingual prompts strictly o
 - 这份 Prompt 的风格定义，是从模板里读来的，还是我自己想的？
 - 模板的禁止清单，我有没有违反？
 - 用户明确说过的每一条，都照做了吗？
-- 中英两版对得上吗？正向里还有否定句吗？
+- 中文版里还有英文吗（型号名除外）？英文版里还有中文吗？
+- 两版的数字和 Negative 条目对得上吗？正向里还有否定句吗？
