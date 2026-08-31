@@ -11,7 +11,7 @@ Select one primary route from this catalog. Resolve listed source files from the
 | 机械剑圣、未来武士、都市战争、角色装甲 | Biomechanical wuxia |
 | 孙悟空、天庭、神话战争、古代神殿废墟 | Live-action Eastern mythology |
 | 巨型怪兽、都市灾难、极端仰拍、巨物恐惧 | Cinematic urban kaiju disaster |
-| 巨大天象、现实旅行误入奇境、空灵尺度 | Dreamlike impossible nature |
+| 巨大天象、现实旅行误入奇境、宇宙云瀑、世界边缘、空灵尺度 | Dreamlike impossible nature |
 | 夏日、公路、海岸、青春、自由、海滨山城、复古电车、治愈 | Healing travel adventure |
 | 复古旅行海报、手绘动画背景、装饰插画 | Retro illustrated travel |
 | iPhone 随手拍、深夜、孤独、生活流 | Imperfect candid emo |
@@ -80,15 +80,16 @@ Use for colossal creatures invading real modern cities, first-person street enco
 
 ## Dreamlike impossible nature
 
-Use for ordinary travelers encountering impossible skies, giant celestial animals, liquid rainbow rivers, cosmic spirals, or surreal but emotionally believable landscapes.
+Use for ordinary travelers encountering impossible skies, giant celestial animals, liquid rainbow rivers, cosmic spirals, world-edge cloudfalls, or surreal but emotionally believable landscapes.
 
 - **Core DNA:** first establish a convincing real place and camera position, then introduce one impossible phenomenon at overwhelming scale.
 - **Close-follow mode:** 24–28mm, camera 1.5–2.5m behind the subject, slightly offset 15°–20°, low tracking view, large foreground figure, deep fantasy world behind.
 - **First-person travel mode:** 20–24mm at adult eye height on a normal ferry, road, deck, or overlook. Validate railings, deck, sea, horizon, and travel context before revealing the sky anomaly.
 - **Simple illustration mode:** 9:16, low-angle small observer versus giant koi or celestial creature, minimal prose and extreme scale contrast.
+- **Cosmic cloudfall mode:** 9:16, 20–24mm from slightly behind a dark cliff edge, with a seated adult only 8%–10% of frame height. Keep the cloud-sea top horizontal, then break it across a clean rectangular 90-degree world edge into a vertically continuous cloud waterfall; place a near-parallel galactic band on the far right and a straight horizon at 15%–20% from the top.
 - **Light/material:** physically continuous water, cloud, atmosphere, reflections, backlight, and occlusion even when the phenomenon is impossible.
-- **Avoid:** poster layout, spacecraft cues, arbitrary fantasy objects, multiple sky spectacles, incorrect camera placement, subject too far away, decorative rather than physical water.
-- **Sources:** `梦幻空灵/prompt-one.md`, `梦幻空灵/童话.md`, `梦幻空灵/无人区-童话.md`.
+- **Avoid:** poster layout, spacecraft cues, arbitrary fantasy objects, multiple sky spectacles, incorrect camera placement, subject too large, decorative rather than physical flow, liquid-water substitution, rounded planet edge, floating islands, castles, or vegetation when the brief calls for a cosmic void.
+- **Sources:** `梦幻空灵/prompt-one.md`, `梦幻空灵/童话.md`, `梦幻空灵/无人区-童话.md`, `梦幻/瀑布.md`.
 
 ## Healing travel adventure
 
