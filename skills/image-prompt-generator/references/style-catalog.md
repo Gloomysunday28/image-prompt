@@ -8,6 +8,7 @@ Select one primary route from this catalog. Resolve listed source files from the
 | --- | --- |
 | 天宫、仙界、巨型东方建筑、渺小仙人 | Monumental celestial architecture |
 | 东方工业都市、蒸汽朋克水城、屋顶剑客 | Grounded industrial wuxia |
+| 暗黑浪人、斗笠武士、荒野花海、暴风云层 | Stormbound live-action ronin |
 | 机械剑圣、未来武士、都市战争、角色装甲 | Biomechanical wuxia |
 | 孙悟空、天庭、神话战争、古代神殿废墟 | Live-action Eastern mythology |
 | 巨型怪兽、都市灾难、极端仰拍、巨物恐惧 | Cinematic urban kaiju disaster |
@@ -40,6 +41,18 @@ Use for Eastern steampunk cities, industrial water networks, rooftop swordsmen, 
 - **Character:** real adult actor proportions, weathered robes, leather and metal protection, fiber-level fabric, pores and individual hair strands, non-glowing steel weapon.
 - **Avoid:** floating buildings, magic machinery, clean PBR surfaces, decorative fog, fantasy glow, glossy CGI, concept-art skyline, orange-teal grading.
 - **Sources:** `武侠/蒸汽朋克.md`, `武侠/蒸汽朋克-水城.md`, `武侠/赛博朋克.md`.
+
+## Stormbound live-action ronin
+
+Use for solitary historical ronin, wind-lashed wilderness, storm-front flower fields, and grounded dark Eastern sword-film imagery.
+
+- **Core DNA:** a real adult actor seen from behind, physically believable worn clothing and weaponry, a silent post-battle stance, and one coherent environmental force moving everything around him.
+- **Composition:** vertical 9:16; 24mm lens about 60cm above the ground; camera roughly 35° behind and to the left. Keep the figure center-left at about 60% frame height, lower the horizon, and reserve 55%–60% for the storm sky.
+- **Character:** oversized conical woven-bamboo hat wider than the shoulders, face fully hidden, windblown black hair, severely torn black-gray haori, light traditional armor, aged leather and cloth ties, faded hand-dyed back character, steel katana extending toward the lower right.
+- **Motion:** wind travels right to left. Hair, hat ties, torn cloth, silver grass, flowers, petals, leaves, seeds, and debris must all obey that same direction while the ronin remains almost still.
+- **Environment/light:** dense purple wildflowers and silver grass, gray-violet mountain layers, humid rain haze, massive naturally structured cumulonimbus, irregular cold-white openings, and narrow silver-violet rim light with readable shadow detail.
+- **Avoid:** anime, illustration, game key art, cyberpunk, sci-fi armor, glowing blades, magic particles, explosion-like wind, supernatural portals, pure-black silhouette, extra people or weapons, modern infrastructure, incorrect typography.
+- **Source:** `武侠/浪客.md`.
 
 ## Biomechanical wuxia
 
