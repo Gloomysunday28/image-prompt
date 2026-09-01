@@ -4,7 +4,7 @@
 > 每一条提示词都不是几个关键词的堆砌，而是一份可直接投喂给模型的**完整摄影/美术指令**：画幅、机位、焦段、空间层次、材质、光线、动态、负面清单一应俱全。
 
 <p>
-  <img alt="prompts" src="https://img.shields.io/badge/prompts-22-blue" />
+  <img alt="prompts" src="https://img.shields.io/badge/prompts-23-blue" />
   <img alt="categories" src="https://img.shields.io/badge/categories-10-green" />
   <img alt="lang" src="https://img.shields.io/badge/lang-中文%20%2F%20English-orange" />
 </p>
@@ -72,7 +72,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 
 ## 仓库 Skill
 
-仓库内置 [`image-prompt-generator`](skills/image-prompt-generator/SKILL.md) Skill，用于基于本仓库已经沉淀的视觉语言生成新的生图 Prompt。输入一个题材、画面想法或参考图，它会在东方神界巨构、真人武侠工业都市、生物机械剑圣、暴风荒野浪客、东方神话史诗、都市巨型怪兽灾难、梦幻空灵与宇宙云瀑、夏日治愈、复古旅行插画、日常 emo、体素游戏等路线中选择合适画风，生成可直接投喂模型的完整提示词；明确要求生图时也可以直接生成图片。
+仓库内置 [`image-prompt-generator`](skills/image-prompt-generator/SKILL.md) Skill，用于基于本仓库已经沉淀的视觉语言生成新的生图 Prompt。输入一个题材、画面想法或参考图，它会在东方神界巨构、真人武侠工业都市、生物机械剑圣、暴风荒野浪客、东方神话史诗、都市巨型怪兽灾难、梦幻空灵、宇宙云瀑与高速森林骑行、夏日治愈、复古旅行插画、日常 emo、体素游戏等路线中选择合适画风，生成可直接投喂模型的完整提示词；明确要求生图时也可以直接生成图片。
 
 在 Codex 中可直接调用：
 
@@ -102,6 +102,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | 梦幻空灵 | [prompt-one.md](梦幻空灵/prompt-one.md) | 9:16 | 短 | 巨型锦鲤遨游星云，低角度仰拍 |
 | 梦幻空灵 | [童话.md](梦幻空灵/童话.md) | 16:9 | 长 | 七彩天河逆光，第三人称跟拍探索感 |
 | 梦幻空灵 | [无人区-童话.md](梦幻空灵/无人区-童话.md) | 16:9 | 长 | 渡轮甲板仰望巨大星河漩涡 |
+| 梦幻空灵 | [森林骑行.md](梦幻空灵/森林骑行.md) | 9:16 | 长 | 第一人称高速骑行穿越粉紫花树、蓝色瀑布与橙金灯海 |
 | 梦幻 | [瀑布.md](梦幻/瀑布.md) | 9:16 | 长 | 渺小人物坐在宇宙尽头，凝视矩形世界边缘的粉色云瀑 |
 | 治愈 | [滑板治愈.md](治愈/滑板治愈.md) | 9:16 | 中 | 滑板少年冲下海岸公路的夏日治愈画面 |
 | 治愈 | [夏日海边.md](治愈/夏日海边.md) | 9:16 | 长 | 复古电车掠过盛夏海滨山城，海湾与积雨云闪耀通透 |
@@ -143,6 +144,7 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 - [`prompt-one.md`](梦幻空灵/prompt-one.md)：最短的一条。巨型锦鲤在星云中游动，小人背对观众仰望，锦鲤低头看他。
 - [`童话.md`](梦幻空灵/童话.md)：严格规定「近距离、低机位、几乎正后方、向左偏 15°–20°」的第三人称跟拍，配【七彩天河】【太阳与逆光】【严格避免】等段落，要的是「普通人旅途中误入童话区域被同行者随手拍下」的感觉。
 - [`无人区-童话.md`](梦幻空灵/无人区-童话.md)：第一人称站在海上渡轮甲板，20–24mm 广角，天空核心是巨大星河漩涡。前提是**先让人相信这是一艘真实的普通渡轮**，然后才发现天空不对劲。
+- [`森林骑行.md`](梦幻空灵/森林骑行.md)：9:16 竖版第一人称高速骑行。18mm–20mm 超广角镜头固定在骑行者头部或胸前，黑色车把只占画面底部，湿润狭窄道路以一点透视冲向橙金色森林深处；粉紫花树、青蓝溪流与瀑布、暖色天灯和大量粒子构成强烈冷暖碰撞。示例图见 [`森林骑行.png`](梦幻空灵/森林骑行.png)。
 
 ### 梦幻 · 宇宙云瀑
 
@@ -183,8 +185,8 @@ git clone https://github.com/Gloomysunday28/image-prompt.git
 | **武侠 · 蒸汽朋克（水城）**<br />[`武侠/蒸汽朋克-水城.md`](武侠/蒸汽朋克-水城.md) | **武侠 · 将军**<br />[`武侠/将军.md`](武侠/将军.md)（竖版原图，缩略图为裁切） | **武侠 · 骑士（正面）**<br />[`武侠/骑士-正面.md`](武侠/骑士-正面.md)（竖版原图，缩略图为裁切） |
 | <a href="西游记/悟空.png"><img src="preview/wukong.jpg" width="340" height="191" /></a> | <a href="怪兽/近距离大鸟.png"><img src="preview/kaiju-bird.jpg" width="340" height="191" /></a> | <a href="治愈/夏日海边.png"><img src="preview/summer-coast.jpg" width="340" height="191" /></a> |
 | **西游记 · 悟空**<br />[`西游记/悟空.md`](西游记/悟空.md) | **怪兽 · 近距离大鸟**<br />[`怪兽/近距离大鸟.md`](怪兽/近距离大鸟.md) | **治愈 · 夏日海边**<br />[`治愈/夏日海边.md`](治愈/夏日海边.md)（竖版原图，缩略图为适配） |
-| <a href="梦幻/瀑布.png"><img src="preview/cosmic-cloudfall.jpg" width="340" height="191" /></a> | <a href="武侠/浪客.png"><img src="preview/ronin-storm.jpg" width="340" height="191" /></a> |  |
-| **梦幻 · 瀑布**<br />[`梦幻/瀑布.md`](梦幻/瀑布.md)（竖版原图，缩略图为裁切） | **武侠 · 浪客**<br />[`武侠/浪客.md`](武侠/浪客.md)（竖版原图，缩略图为裁切） |  |
+| <a href="梦幻/瀑布.png"><img src="preview/cosmic-cloudfall.jpg" width="340" height="191" /></a> | <a href="武侠/浪客.png"><img src="preview/ronin-storm.jpg" width="340" height="191" /></a> | <a href="梦幻空灵/森林骑行.png"><img src="preview/forest-ride.jpg" width="340" height="191" /></a> |
+| **梦幻 · 瀑布**<br />[`梦幻/瀑布.md`](梦幻/瀑布.md)（竖版原图，缩略图为裁切） | **武侠 · 浪客**<br />[`武侠/浪客.md`](武侠/浪客.md)（竖版原图，缩略图为裁切） | **梦幻空灵 · 森林骑行**<br />[`梦幻空灵/森林骑行.md`](梦幻空灵/森林骑行.md)（竖版原图，缩略图为裁切） |
 
 ---
 
@@ -248,7 +250,9 @@ image-prompt/
 │  ├─ prompt-one.md
 │  ├─ 童话.md
 │  ├─ 童话.png
-│  └─ 无人区-童话.md
+│  ├─ 无人区-童话.md
+│  ├─ 森林骑行.md
+│  └─ 森林骑行.png
 ├─ 梦幻/
 │  ├─ 瀑布.md
 │  └─ 瀑布.png
