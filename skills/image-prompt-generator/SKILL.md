@@ -1,6 +1,6 @@
 ---
 name: image-prompt-generator
-description: Generate original, production-ready image prompts and, when requested, render images using the visual languages distilled from Gloomysunday28/image-prompt. Use when a user wants to turn an idea or reference image into a complete prompt, match or combine the repository's cinematic wuxia, stormbound live-action ronin, monumental mythology, urban kaiju disaster, dreamy fantasy, cosmic cloudfall and high-speed fantasy POV, healing travel and photoreal summer coast, retro illustration, candid emo, or voxel-game styles, optimize an existing prompt, reverse-engineer visible composition, or create consistent image variants.
+description: Generate original, production-ready image prompts and, when requested, render images using the visual languages distilled from Gloomysunday28/image-prompt. Use when a user wants to turn an idea or reference image into a complete prompt, match or combine the repository's cinematic wuxia, stormbound live-action ronin, monumental mythology, urban kaiju disaster, dreamy fantasy, cosmic cloudfall and high-speed fantasy POV, healing travel, photoreal summer coast and celestial snowfield companions, retro illustration, candid emo, or voxel-game styles, optimize an existing prompt, reverse-engineer visible composition, or create consistent image variants.
 ---
 
 # Image Prompt Generator
