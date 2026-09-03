@@ -3,7 +3,7 @@
 > 结构化、可复用的中文 AI 绘画提示词收藏库。每一条都不是关键词堆砌，而是一份完整的摄影/美术指令：画幅、机位、焦段、空间层次、材质、光线、动态、Negative Prompt 一应俱全。
 
 <p>
-  <img alt="prompts" src="https://img.shields.io/badge/提示词-25-blue" />
+  <img alt="prompts" src="https://img.shields.io/badge/提示词-26-blue" />
   <img alt="format" src="https://img.shields.io/badge/格式-结构化长提示词-green" />
   <img alt="lang" src="https://img.shields.io/badge/lang-中文%20%2F%20English-orange" />
 </p>
@@ -33,7 +33,7 @@
 | --- | --- | --- | --- |
 | **宏大风格** | 2 条 | 环境 / 设定集 | [宫阙图](docs/gallery.md#case-1)、[天宫设定集](docs/gallery.md#case-3) |
 | **游戏** | 1 条 | 参数化 | [我的世界](docs/gallery.md#case-2) |
-| **梦幻空灵** | 5 条 | 环境 | [星云锦鲤](docs/gallery.md#case-4)、[童话](docs/gallery.md#case-7)、[无人区-童话](docs/gallery.md#case-8)、[瀑布](docs/gallery.md#case-21)、[森林骑行](docs/gallery.md#case-23) |
+| **梦幻空灵** | 6 条 | 环境 | [星云锦鲤](docs/gallery.md#case-4)、[童话](docs/gallery.md#case-7)、[无人区-童话](docs/gallery.md#case-8)、[瀑布](docs/gallery.md#case-21)、[森林骑行](docs/gallery.md#case-23)、[公路巨云](docs/gallery.md#case-26) |
 | **宫崎骏画风** | 1 条 | 环境 | [意大利旅游](docs/gallery.md#case-5) |
 | **日常 emo** | 1 条 | 元指令 | [深夜快照](docs/gallery.md#case-6) |
 | **武侠** | 9 条 | 环境 / 双主体 / 角色 | [蒸汽朋克](docs/gallery.md#case-9)、[机甲](docs/gallery.md#case-11)、[机甲-夜晚](docs/gallery.md#case-12)、[机甲-白天](docs/gallery.md#case-13)、[赛博朋克](docs/gallery.md#case-14)、[将军](docs/gallery.md#case-15)、[蒸汽朋克-水城](docs/gallery.md#case-16)、[骑士-正面](docs/gallery.md#case-17)、[浪客](docs/gallery.md#case-22) |
