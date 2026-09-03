@@ -27,6 +27,8 @@ function parse(file) {
   }
   const prompt = raw.slice(m[0].length).trim();
   const id = Number(meta.id);
+  const fileId = Number(file.match(/^case(\d+)\.md$/)[1]);
+  if (id !== fileId) throw new Error(`${file} 的 front-matter id=${meta.id} 与文件名不一致`);
   return {
     id,
     title: meta.title,
@@ -50,6 +52,10 @@ const cases = fs.readdirSync(PROMPT_DIR)
   .filter(f => /^case\d+\.md$/.test(f))
   .map(parse)
   .sort((a, b) => a.id - b.id);
+
+// id 必须唯一——否则锚点、配图和 Skill 引用会静默错配（与文件名一致性在 parse 里校验）
+const dup = cases.map(c => c.id).filter((id, i, a) => a.indexOf(id) !== i);
+if (dup.length) throw new Error(`重复的 id：${[...new Set(dup)].join('、')}`);
 
 // ---- data/prompts.json ----
 fs.writeFileSync(path.join(ROOT, 'data/prompts.json'),

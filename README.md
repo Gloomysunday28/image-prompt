@@ -3,7 +3,7 @@
 > 结构化、可复用的中文 AI 绘画提示词收藏库。每一条都不是关键词堆砌，而是一份完整的摄影/美术指令：画幅、机位、焦段、空间层次、材质、光线、动态、Negative Prompt 一应俱全。
 
 <p>
-  <img alt="prompts" src="https://img.shields.io/badge/提示词-26-blue" />
+  <img alt="prompts" src="https://img.shields.io/badge/提示词-27-blue" />
   <img alt="format" src="https://img.shields.io/badge/格式-结构化长提示词-green" />
   <img alt="lang" src="https://img.shields.io/badge/lang-中文%20%2F%20English-orange" />
 </p>
@@ -40,6 +40,7 @@
 | **治愈** | 4 条 | 环境 | [滑板治愈](docs/gallery.md#case-10)、[夏日海边](docs/gallery.md#case-20)、[狗子-雪地](docs/gallery.md#case-24)、[猫咪床边](docs/gallery.md#case-25) |
 | **西游记** | 1 条 | 双主体 | [悟空](docs/gallery.md#case-18) |
 | **怪兽** | 1 条 | 角色 | [近距离大鸟](docs/gallery.md#case-19) |
+| **Q版** | 1 条 | 双主体 | [雷欧](docs/gallery.md#case-27) |
 
 <!-- GENERATED:OVERVIEW:END -->
 
@@ -60,8 +61,10 @@
 | **例 18·悟空**<br />[查看提示词](docs/gallery.md#case-18) | **例 19·近距离大鸟**<br />[查看提示词](docs/gallery.md#case-19) | **例 20·夏日海边**<br />[查看提示词](docs/gallery.md#case-20) |
 | <a href="data/images/case21.png"><img src="data/images/thumbs/case21.jpg" width="300" /></a> | <a href="data/images/case22.png"><img src="data/images/thumbs/case22.jpg" width="300" /></a> | <a href="data/images/case23.png"><img src="data/images/thumbs/case23.jpg" width="300" /></a> |
 | **例 21·瀑布**<br />[查看提示词](docs/gallery.md#case-21) | **例 22·浪客**<br />[查看提示词](docs/gallery.md#case-22) | **例 23·森林骑行**<br />[查看提示词](docs/gallery.md#case-23) |
-| <a href="data/images/case24.png"><img src="data/images/thumbs/case24.jpg" width="300" /></a> | <a href="data/images/case25.png"><img src="data/images/thumbs/case25.jpg" width="300" /></a> |
-| **例 24·狗子-雪地**<br />[查看提示词](docs/gallery.md#case-24) | **例 25·猫咪床边**<br />[查看提示词](docs/gallery.md#case-25) |
+| <a href="data/images/case24.png"><img src="data/images/thumbs/case24.jpg" width="300" /></a> | <a href="data/images/case25.png"><img src="data/images/thumbs/case25.jpg" width="300" /></a> | <a href="data/images/case26.png"><img src="data/images/thumbs/case26.jpg" width="300" /></a> |
+| **例 24·狗子-雪地**<br />[查看提示词](docs/gallery.md#case-24) | **例 25·猫咪床边**<br />[查看提示词](docs/gallery.md#case-25) | **例 26·公路巨云**<br />[查看提示词](docs/gallery.md#case-26) |
+| <a href="data/images/case27.png"><img src="data/images/thumbs/case27.jpg" width="300" /></a> |
+| **例 27·雷欧**<br />[查看提示词](docs/gallery.md#case-27) |
 
 <!-- GENERATED:GALLERY:END -->
 
@@ -134,10 +137,12 @@ image-prompt/
 ## 🤝 贡献
 
 ```bash
-# 1. 新建 data/prompts/case26.md，头部写 front-matter：
+# 1. 取一个没被占用的编号 N（= 当前最大 ID + 1，见画廊表格最后一行）
+# 2. 新建 data/prompts/caseN.md，头部写 front-matter：
 #    id / title / category / type / styles / scenes / aspect / image / summary
-# 2. 可选：把出图放到 data/images/case26.png，缩略图放 data/images/thumbs/case26.jpg
-# 3. 重新生成
+#    front-matter 的 id 必须等于文件名里的 N，生成器会校验，不一致直接报错
+# 3. 可选：把出图放到 data/images/caseN.png，缩略图放 data/images/thumbs/caseN.jpg
+# 4. 重新生成
 node scripts/generate.mjs
 ```
 
