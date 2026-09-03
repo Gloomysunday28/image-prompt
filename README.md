@@ -57,14 +57,12 @@
 | **例 12·机甲-夜晚**<br />[查看提示词](docs/gallery.md#case-12) | **例 13·机甲-白天**<br />[查看提示词](docs/gallery.md#case-13) | **例 14·赛博朋克**<br />[查看提示词](docs/gallery.md#case-14) |
 | <a href="data/images/case15.png"><img src="data/images/thumbs/case15.jpg" width="300" /></a> | <a href="data/images/case16.png"><img src="data/images/thumbs/case16.jpg" width="300" /></a> | <a href="data/images/case17.png"><img src="data/images/thumbs/case17.jpg" width="300" /></a> |
 | **例 15·将军**<br />[查看提示词](docs/gallery.md#case-15) | **例 16·蒸汽朋克-水城**<br />[查看提示词](docs/gallery.md#case-16) | **例 17·骑士-正面**<br />[查看提示词](docs/gallery.md#case-17) |
-| <a href="data/images/case18.png"><img src="data/images/thumbs/case18.jpg" width="300" /></a> | <a href="data/images/case19.png"><img src="data/images/thumbs/case19.jpg" width="300" /></a> | <a href="data/images/case20.png"><img src="data/images/thumbs/case20.jpg" width="300" /></a> |
-| **例 18·悟空**<br />[查看提示词](docs/gallery.md#case-18) | **例 19·近距离大鸟**<br />[查看提示词](docs/gallery.md#case-19) | **例 20·夏日海边**<br />[查看提示词](docs/gallery.md#case-20) |
-| <a href="data/images/case21.png"><img src="data/images/thumbs/case21.jpg" width="300" /></a> | <a href="data/images/case22.png"><img src="data/images/thumbs/case22.jpg" width="300" /></a> | <a href="data/images/case23.png"><img src="data/images/thumbs/case23.jpg" width="300" /></a> |
-| **例 21·瀑布**<br />[查看提示词](docs/gallery.md#case-21) | **例 22·浪客**<br />[查看提示词](docs/gallery.md#case-22) | **例 23·森林骑行**<br />[查看提示词](docs/gallery.md#case-23) |
-| <a href="data/images/case24.png"><img src="data/images/thumbs/case24.jpg" width="300" /></a> | <a href="data/images/case25.png"><img src="data/images/thumbs/case25.jpg" width="300" /></a> | <a href="data/images/case26.png"><img src="data/images/thumbs/case26.jpg" width="300" /></a> |
-| **例 24·狗子-雪地**<br />[查看提示词](docs/gallery.md#case-24) | **例 25·猫咪床边**<br />[查看提示词](docs/gallery.md#case-25) | **例 26·公路巨云**<br />[查看提示词](docs/gallery.md#case-26) |
-| <a href="data/images/case27.png"><img src="data/images/thumbs/case27.jpg" width="300" /></a> |
-| **例 27·雷欧**<br />[查看提示词](docs/gallery.md#case-27) |
+| <a href="data/images/case18.png"><img src="data/images/thumbs/case18.jpg" width="300" /></a> | <a href="data/images/case20.png"><img src="data/images/thumbs/case20.jpg" width="300" /></a> | <a href="data/images/case21.png"><img src="data/images/thumbs/case21.jpg" width="300" /></a> |
+| **例 18·悟空**<br />[查看提示词](docs/gallery.md#case-18) | **例 20·夏日海边**<br />[查看提示词](docs/gallery.md#case-20) | **例 21·瀑布**<br />[查看提示词](docs/gallery.md#case-21) |
+| <a href="data/images/case22.png"><img src="data/images/thumbs/case22.jpg" width="300" /></a> | <a href="data/images/case23.png"><img src="data/images/thumbs/case23.jpg" width="300" /></a> | <a href="data/images/case24.png"><img src="data/images/thumbs/case24.jpg" width="300" /></a> |
+| **例 22·浪客**<br />[查看提示词](docs/gallery.md#case-22) | **例 23·森林骑行**<br />[查看提示词](docs/gallery.md#case-23) | **例 24·狗子-雪地**<br />[查看提示词](docs/gallery.md#case-24) |
+| <a href="data/images/case25.png"><img src="data/images/thumbs/case25.jpg" width="300" /></a> | <a href="data/images/case26.png"><img src="data/images/thumbs/case26.jpg" width="300" /></a> | <a href="data/images/case27.png"><img src="data/images/thumbs/case27.jpg" width="300" /></a> |
+| **例 25·猫咪床边**<br />[查看提示词](docs/gallery.md#case-25) | **例 26·公路巨云**<br />[查看提示词](docs/gallery.md#case-26) | **例 27·雷欧**<br />[查看提示词](docs/gallery.md#case-27) |
 
 <!-- GENERATED:GALLERY:END -->
 

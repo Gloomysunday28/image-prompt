@@ -39,6 +39,8 @@ function parse(file) {
     aspect: meta.aspect,
     summary: meta.summary,
     image: meta.image ? `data/images/${meta.image}` : null,
+    // front-matter 写 featured: false 即可从 README 卡片区下架，画廊与图片文件保持不变
+    featured: meta.featured !== 'false',
     thumb: fs.existsSync(path.join(ROOT, `data/images/thumbs/case${id}.jpg`))
       ? `data/images/thumbs/case${id}.jpg` : null,
     source: `data/prompts/case${id}.md`,
@@ -126,7 +128,7 @@ for (const [cat, list] of byCat) {
   overview.push(`| **${cat}** | ${list.length} 条 | ${types} | ${links} |`);
 }
 
-const featured = cases.filter(c => c.thumb);
+const featured = cases.filter(c => c.thumb && c.featured);
 const cards = [];
 for (let i = 0; i < featured.length; i += 3) {
   const row = featured.slice(i, i + 3);

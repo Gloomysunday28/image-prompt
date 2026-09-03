@@ -7,6 +7,7 @@ styles: [真人电影实拍]
 scenes: [怪兽, 都市灾难]
 aspect: "16:9"
 image: case19.png
+featured: false
 summary: 都市街道极致仰视，山岳级火山鸟兽扑向镜头
 ---
 16:9 横向构图，真人电影级怪兽灾难大片，**写实电影怪兽 VFX，Hollywood kaiju film still，IMAX 级尺度，物理真实材质，真实生物组织，真实羽毛、角质、皮肤与湿润表面，高动态范围电影光照**。
