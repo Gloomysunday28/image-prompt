@@ -1,0 +1,23 @@
+---
+id: 24
+title: 狗子-雪地
+category: 治愈
+type: 环境
+styles: [真人摄影]
+scenes: [治愈, 雪原, 宠物]
+aspect: "9:16"
+image: case24.png
+summary: 柴犬半蹲于无限雪原，仰望粉金宇宙天穹与暖光木屋
+---
+9:16 竖向构图，第一人称 POV，电影级超现实真实摄影。摄影机位于成年人眼睛高度约 1.65m，**平视镜头，镜头光轴与地面平行，绝不俯拍**，14–16mm 超广角，extreme long shot，deep focus，超大尺度、超深空间纵深。
+
+脚下是一望无际的**平坦雪原**，真实雪粒、浅雪纹与冰晶反光，从近景连续延伸至几十公里外的低矮地平线。画面中央前方约 5–7 米，一只真实成年柴犬**半蹲在雪地上**，四肢弯曲、重心压低、屁股稍低但没有完全坐下，正脸看向镜头，耳朵竖起，嘴巴微张、轻微吐舌，眼睛微眯，呈现自然憨憨的开心笑脸，橘黄短毛、奶白胸腹、卷尾，真实动物摄影质感。
+
+柴犬后方保留大片空旷雪地，**数栋大型现代木屋位于约 50–100 米的中景位置**，距离镜头明显比柴犬远，不贴近前景。深色原木外墙、积雪斜屋顶、大面积玻璃窗，建筑轮廓与屋檐点缀克制的香槟金暖色灯带，室内透出奶油金暖光，在白雪上形成柔和反射。木屋彼此疏散排列，越向远处尺度越小。
+
+**天空极高，占画面约 75%**，地平线压低。天空采用 pearl pink、rose gold、champagne gold、peach、warm ivory、soft lavender 色系，不要蓝色夜空。巨大半透明粉金色宇宙光带与星云横跨高空，层层延伸至极远处，布满细小珍珠白与暖金色星尘，少量细长白金流星，高空具有巨大的垂直尺度与宇宙纵深。远方地平线散发乳白、浅粉、香槟金色辉光，轻柔映照整个雪原。
+
+构图层级明确：**柴犬 → 大片空旷雪地 → 中景暖光木屋 → 无限雪原 → 极远雪山 → 发光地平线 → 巨大粉金宇宙天穹**。cinematic photorealism, IMAX scale, atmospheric perspective, physically based lighting, realistic snow reflection, volumetric light, HDR, ultra detailed, surreal celestial dreamscape.
+
+**Negative Prompt：**  
+high angle, aerial view, looking down, sloped terrain, close-up cabin, oversized building, crowded resort, Shiba sitting, standing Shiba, cartoon dog, blue sky, cyan sky, cyberpunk neon, palace, temple, city, oil painting, illustration, anime, game art, plastic CGI, fisheye, shallow depth of field, blurred background, overexposure.

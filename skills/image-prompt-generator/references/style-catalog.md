@@ -28,7 +28,7 @@ Use for immense heavenly palaces, immortal cities, cloud seas, celestial platfor
 - **Motion:** Choose one slow phenomenon only—cloud waterfall, transparent sky-waterfall, celestial river, ripples, banners, crane, or low cloud flow.
 - **Material/light:** Weighty pale stone, pearl-gray stone, restrained vermilion timber, dark blue-green roofs, limited old gold, reflective shallow water, warm diffuse high-altitude light, transparent cool shadows.
 - **Avoid:** many equally dominant palaces, tiny or washed-out distant city, generic garden, cluttered ornament, gray haze, random magic glow, multiple competing dynamics.
-- **Sources:** `宏大风格/宫阙图 - (风格 1).md`, `宏大风格/prompt-two.md`.
+- **Sources:** `例 1（宫阙图）`, `例 3（天宫设定集）`.
 
 ## Grounded industrial wuxia
 
@@ -40,7 +40,7 @@ Use for Eastern steampunk cities, industrial water networks, rooftop swordsmen, 
 - **Material/light:** oxidized copper, black iron, rusted steel, wet stone, old wood, oil film, scratches, welds, dust, rain traces, natural steam diffusion; restrained sunset or overcast cold/warm separation.
 - **Character:** real adult actor proportions, weathered robes, leather and metal protection, fiber-level fabric, pores and individual hair strands, non-glowing steel weapon.
 - **Avoid:** floating buildings, magic machinery, clean PBR surfaces, decorative fog, fantasy glow, glossy CGI, concept-art skyline, orange-teal grading.
-- **Sources:** `武侠/蒸汽朋克.md`, `武侠/蒸汽朋克-水城.md`, `武侠/赛博朋克.md`.
+- **Sources:** `例 9（蒸汽朋克）`, `例 16（蒸汽朋克-水城）`, `例 14（赛博朋克）`.
 
 ## Stormbound live-action ronin
 
@@ -52,7 +52,7 @@ Use for solitary historical ronin, wind-lashed wilderness, storm-front flower fi
 - **Motion:** wind travels right to left. Hair, hat ties, torn cloth, silver grass, flowers, petals, leaves, seeds, and debris must all obey that same direction while the ronin remains almost still.
 - **Environment/light:** dense purple wildflowers and silver grass, gray-violet mountain layers, humid rain haze, massive naturally structured cumulonimbus, irregular cold-white openings, and narrow silver-violet rim light with readable shadow detail.
 - **Avoid:** anime, illustration, game key art, cyberpunk, sci-fi armor, glowing blades, magic particles, explosion-like wind, supernatural portals, pure-black silhouette, extra people or weapons, modern infrastructure, incorrect typography.
-- **Source:** `武侠/浪客.md`.
+- **Source:** `例 22（浪客）`.
 
 ## Biomechanical wuxia
 
@@ -65,7 +65,7 @@ Use for future sword saints, mechanical warriors, practical exoskeleton costumes
 - **Weather/light:** day storm or rain-soaked night; real lens droplets, imperfect exposure, sensor noise, motion blur, wet reflections, lightning or city light as environmental illumination rather than self-glow.
 - **Palette:** layered black metal plus dark red, old gold, silver-gray, and very limited blue components; never featureless pure black.
 - **Avoid:** NPC/Boss sheet appearance, superhero poster stance, clean plastic armor, self-emissive sword, empty/ruined city, uniform futuristic towers, Unreal Engine screenshot.
-- **Sources:** `武侠/机甲.md`, `武侠/机甲-白天.md`, `武侠/机甲-夜晚.md`, `武侠/将军.md`, `武侠/骑士-正面.md`.
+- **Sources:** `例 11（机甲）`, `例 13（机甲-白天）`, `例 12（机甲-夜晚）`, `例 15（将军）`, `例 17（骑士-正面）`.
 
 ## Live-action Eastern mythology
 
@@ -77,7 +77,7 @@ Use for mythological heroes, heavenly wars, ruined divine palaces, or IMAX-scale
 - **Material/light:** real stone rubble, heavy dark metal, old gold, worn cloth, dust, smoke, cold overcast daylight, natural atmosphere, limited black-red accents.
 - **Scale:** keep anatomy normal; create power through near/far perspective, subject occupancy, camera height, and a long prop entering the closest foreground.
 - **Avoid:** ornate fantasy poster, gold divine rays, dream cloud sea, floating glow, crowd of deities, weightless ruins, short or ambiguous signature weapon.
-- **Source:** `西游记/悟空.md`.
+- **Source:** `例 18（悟空）`.
 
 ## Cinematic urban kaiju disaster
 
@@ -89,7 +89,7 @@ Use for colossal creatures invading real modern cities, first-person street enco
 - **Creature anatomy:** make the species readable at first glance. Separate skull, jaw/beak, eyes, neck, chest, wing roots, feathers/scales/skin, mouth tissue, scars, and moisture. Keep living tissue distinct from stone, lava, armor, or magic effects.
 - **Material/light:** bright overcast storm exposure, open shadows, cool-white diffuse light, wet skin and keratin, visible pores, feather shafts, mucosa, saliva, rain, and restrained atmospheric haze that never hides the subject.
 - **Avoid:** complete body or wings, distant monster, skyline panorama, small mouth, generic dragon/dinosaur substitution, rock or lava body, rubber suit, plastic CGI, silhouette darkness, glowing eyes, magic light, excessive fog, game-concept framing.
-- **Source:** `怪兽/近距离大鸟.md`.
+- **Source:** `例 19（近距离大鸟）`.
 
 ## Dreamlike impossible nature
 
@@ -104,7 +104,7 @@ Use for ordinary travelers encountering impossible skies, giant celestial animal
 - **Forest palette and layers:** frame the path with ancient arching dark trees and dense pink-magenta blossoms, place cyan streams and partially hidden blue waterfalls on both sides, then pull the eye toward a warm amber-orange tunnel. Vary lantern scale by depth and let particles, reflections, and light trails reinforce forward velocity without collapsing spatial separation.
 - **Light/material:** physically continuous water, cloud, atmosphere, reflections, backlight, and occlusion even when the phenomenon is impossible.
 - **Avoid:** poster layout, spacecraft cues, arbitrary fantasy objects, multiple sky spectacles, incorrect camera placement, subject too large, decorative rather than physical flow, liquid-water substitution, rounded planet edge, floating islands, castles, third-person rider, complete body, car or motorcycle substitution, wide road, orderly lantern grid, static camera, excessive fisheye, or missing depth.
-- **Sources:** `梦幻空灵/prompt-one.md`, `梦幻空灵/童话.md`, `梦幻空灵/无人区-童话.md`, `梦幻空灵/森林骑行.md`, `梦幻/瀑布.md`.
+- **Sources:** `例 4（星云锦鲤）`, `例 7（童话）`, `例 8（无人区-童话）`, `例 23（森林骑行）`, `例 21（瀑布）`.
 
 ## Healing travel adventure
 
@@ -118,7 +118,7 @@ Use for youth, summer movement, coastlines, mountain roads, seaside towns, local
 - **Window-framed companion mode:** use a vertical first-person view from a quiet shadowed room. Let a tall dark wooden window frame occupy both sides and the top, keep the sill in the lowest roughly 10%, and place a small sleeping pet in one lower corner. Compress a lived-in Southern European hill town into the lowest 15%–20%, center one enormous sunlit cauliflower-structured cumulonimbus tower above it, and reserve roughly 75%–80% for clean blue sky. Preserve subtle cloud reflection in one pane, natural warm/cool exposure balance, and the feeling of an ordinary moment accidentally framing an extraordinary but physically believable natural event.
 - **Color:** high saturation but natural relationships; clean air, luminous highlights, readable shadows, no gray filter.
 - **Avoid:** static travel staging, large centered portrait, flat postcard depth, central-only village, straight centered road, empty sky, isolated symmetric cloud towers, generic tourist photography, random flowers without a leading line, gloomy grade, illustration drift when realism is requested, high-angle snowfield views, sloped terrain, oversized foreground cabins, seated or standing substitution when a crouch is required, cartoon animals, blue/cyan celestial skies in the snowfield mode, missing or weak window framing, oversized foreground pet, storm-dark cloud substitution, surreal architecture, fisheye, shallow depth of field.
-- **Sources:** `治愈/滑板治愈.md`, `治愈/夏日海边.md`, `治愈/狗子-雪地.md`, `治愈/猫咪床边.md`.
+- **Sources:** `例 10（滑板治愈）`, `例 20（夏日海边）`, `例 24（狗子-雪地）`, `例 25（猫咪床边）`.
 
 ## Retro illustrated travel
 
@@ -128,7 +128,7 @@ Use for destination posters, decorative landscapes, classic vehicles, coastlines
 - **Composition:** panoramic destination, one moving vehicle or boat, foreground botanical frame, recognizable terrain, simple bright sky.
 - **Length:** keep the prompt compact unless the user requests exact layout control.
 - **Avoid:** photoreal camera jargon, 3D gloss, dense Negative Prompt, contemporary ad layout, muddy color.
-- **Source:** `宫崎骏画风/意大利旅游.md`. Translate the route into observable traits rather than relying only on an artist name when the user did not explicitly request one.
+- **Source:** `例 5（意大利旅游）`. Translate the route into observable traits rather than relying only on an artist name when the user did not explicitly request one.
 
 ## Imperfect candid emo
 
@@ -137,7 +137,7 @@ Use for intimate daily-life portraits, phone snapshots, quiet loneliness, late-n
 - **Core DNA:** ordinary accidental iPhone capture, not a styled portrait; muted slightly cool color, uneven natural light, slight motion blur, mundane framing, subtle loneliness.
 - **Length/language:** default to a short English paragraph matching the source's directness.
 - **Avoid:** beauty retouching, fashion editorial pose, perfect symmetry, studio light, dramatic cinematic spectacle, polished commercial finish.
-- **Source:** `日常 emo/prompt-one.md`.
+- **Source:** `例 6（深夜快照）`.
 
 ## Parametric voxel game
 
@@ -147,4 +147,4 @@ Use for reusable first-person voxel screenshots, game mockups, title/logo varian
 - **Required layers:** top-center 3D title, environment, left/right creatures, first-person held item, bottom HUD, exact health/experience/hunger values, and nine hotbar slots.
 - **Control:** describe each UI slot and number explicitly. Keep the player view, world geometry, and interface spatially separate.
 - **Avoid:** missing HUD, third-person player body, non-voxel geometry, unreadable logo, generic inventory.
-- **Source:** `游戏/我的世界.md`.
+- **Source:** `例 2（我的世界）`.
