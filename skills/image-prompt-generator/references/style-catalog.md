@@ -13,7 +13,7 @@ Select one primary route from this catalog. Resolve listed source files from the
 | 孙悟空、天庭、神话战争、古代神殿废墟 | Live-action Eastern mythology |
 | 巨型怪兽、都市灾难、极端仰拍、巨物恐惧 | Cinematic urban kaiju disaster |
 | 巨大天象、现实旅行误入奇境、宇宙云瀑、世界边缘、第一人称森林骑行、空灵尺度 | Dreamlike impossible nature |
-| 夏日、公路、海岸、青春、自由、海滨山城、复古电车、雪原、宠物、柴犬、粉金星空、治愈 | Healing travel adventure |
+| 夏日、公路、海岸、青春、自由、海滨山城、复古电车、雪原、宠物、柴犬、猫咪、窗台、托斯卡纳山城、巨型积雨云、粉金星空、治愈 | Healing travel adventure |
 | 复古旅行海报、手绘动画背景、装饰插画 | Retro illustrated travel |
 | iPhone 随手拍、深夜、孤独、生活流 | Imperfect candid emo |
 | 体素游戏、第一人称、HUD、可替换参数 | Parametric voxel game |
@@ -108,16 +108,17 @@ Use for ordinary travelers encountering impossible skies, giant celestial animal
 
 ## Healing travel adventure
 
-Use for youth, summer movement, coastlines, mountain roads, seaside towns, local trains, snowfield companions, gentle celestial skies, freedom, travel, and heightened photoreal memories.
+Use for youth, summer movement, coastlines, mountain roads, seaside towns, local trains, snowfield companions, quiet window-side pets, gentle celestial skies, immense sunlit cloud formations, freedom, travel, and heightened photoreal memories.
 
-- **Core DNA:** a decisive foreground movement opens into a generous summer world; a road, rail line, slope, coast, or valley creates a clear destination and emotional pull.
-- **Camera:** vertical 9:16 by default. Use a 14mm low follow angle for character-led motion, or a 20–24mm high hillside overlook 15–25m above a railway for photoreal coastal-town scale.
-- **Environment:** sapphire/teal sea, green mountain volume, large layered white summer clouds, wildflowers, lived-in buildings, utility poles and cables, bright directional sunlight.
+- **Core DNA:** an intimate foreground anchor opens into a generous world. Use decisive movement for travel scenes or a quiet domestic frame for contemplative scenes, then create emotional pull through a road, rail line, window, coast, valley, or vast sky.
+- **Camera:** vertical 9:16 by default. Use a 14mm low follow angle for character-led motion, a 20–24mm high hillside overlook 15–25m above a railway for photoreal coastal-town scale, or a 24–28mm low sill-height view for a window-framed scene.
+- **Environment:** sapphire/teal sea, green mountain volume, layered white summer clouds, flat snow, lived-in buildings, warm cabins or stone hill towns, wildflowers, utility infrastructure, bright directional sunlight, and believable indoor/outdoor exposure contrast.
 - **Photographic coastal mode:** place a close local train and crossing infrastructure across the foreground, let dense hillside homes descend around both sides of a wide bay, keep the horizon near 45%–48%, and build continuous cumulonimbus complexity rather than two isolated cloud towers. Use physically believable sunstars, water glitter, lens flare, and motion blur.
 - **Celestial snowfield companion mode:** use vertical 9:16 first-person POV at roughly 1.65m with the optical axis parallel to flat ground, never a downward view. Place one realistic companion animal 5–7m ahead, preserve broad empty snow before sparse warm cabins at 50–100m, lower the horizon, and reserve about 75% for a pearl-pink, rose-gold, champagne, peach, ivory, and soft-lavender celestial canopy. Keep the animal pose, snow grains, cabin scale, reflections, and deep focus photographically grounded while the sky provides the single impossible phenomenon.
+- **Window-framed companion mode:** use a vertical first-person view from a quiet shadowed room. Let a tall dark wooden window frame occupy both sides and the top, keep the sill in the lowest roughly 10%, and place a small sleeping pet in one lower corner. Compress a lived-in Southern European hill town into the lowest 15%–20%, center one enormous sunlit cauliflower-structured cumulonimbus tower above it, and reserve roughly 75%–80% for clean blue sky. Preserve subtle cloud reflection in one pane, natural warm/cool exposure balance, and the feeling of an ordinary moment accidentally framing an extraordinary but physically believable natural event.
 - **Color:** high saturation but natural relationships; clean air, luminous highlights, readable shadows, no gray filter.
-- **Avoid:** static pose, large centered portrait, flat postcard depth, central-only village, straight centered road, empty sky, isolated symmetric cloud towers, generic tourist photography, random flowers without a leading line, gloomy grade, illustration drift when realism is requested, high-angle snowfield views, sloped terrain, oversized foreground cabins, seated or standing substitution when a crouch is required, cartoon animals, blue/cyan celestial skies, fisheye, shallow depth of field.
-- **Sources:** `治愈/滑板治愈.md`, `治愈/夏日海边.md`, `治愈/狗子-雪地.md`.
+- **Avoid:** static travel staging, large centered portrait, flat postcard depth, central-only village, straight centered road, empty sky, isolated symmetric cloud towers, generic tourist photography, random flowers without a leading line, gloomy grade, illustration drift when realism is requested, high-angle snowfield views, sloped terrain, oversized foreground cabins, seated or standing substitution when a crouch is required, cartoon animals, blue/cyan celestial skies in the snowfield mode, missing or weak window framing, oversized foreground pet, storm-dark cloud substitution, surreal architecture, fisheye, shallow depth of field.
+- **Sources:** `治愈/滑板治愈.md`, `治愈/夏日海边.md`, `治愈/狗子-雪地.md`, `治愈/猫咪床边.md`.
 
 ## Retro illustrated travel
 
