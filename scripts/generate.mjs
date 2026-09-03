@@ -57,6 +57,28 @@ const cases = fs.readdirSync(PROMPT_DIR)
 const dup = cases.map(c => c.id).filter((id, i, a) => a.indexOf(id) !== i);
 if (dup.length) throw new Error(`重复的 id：${[...new Set(dup)].join('、')}`);
 
+// 缩略图必须统一为 THUMB_W×THUMB_H，否则 README 卡片会长短不齐
+const [THUMB_W, THUMB_H] = [680, 383];
+function jpegSize(file) {
+  const b = fs.readFileSync(file);
+  for (let i = 2; i + 9 < b.length; ) {
+    if (b[i] !== 0xff) { i++; continue; }
+    const marker = b[i + 1];
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+      return [b.readUInt16BE(i + 7), b.readUInt16BE(i + 5)];
+    }
+    i += 2 + b.readUInt16BE(i + 2);
+  }
+  return null;
+}
+for (const c of cases.filter(x => x.thumb)) {
+  const size = jpegSize(path.join(ROOT, c.thumb));
+  if (!size) throw new Error(`${c.thumb} 读不出尺寸`);
+  if (size[0] !== THUMB_W || size[1] !== THUMB_H) {
+    throw new Error(`${c.thumb} 是 ${size[0]}×${size[1]}，缩略图必须统一为 ${THUMB_W}×${THUMB_H}`);
+  }
+}
+
 // ---- data/prompts.json ----
 fs.writeFileSync(path.join(ROOT, 'data/prompts.json'),
   JSON.stringify({ total: cases.length, generatedFrom: 'data/prompts/', cases }, null, 2) + '\n');

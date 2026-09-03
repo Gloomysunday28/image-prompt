@@ -141,8 +141,12 @@ image-prompt/
 # 2. 新建 data/prompts/caseN.md，头部写 front-matter：
 #    id / title / category / type / styles / scenes / aspect / image / summary
 #    front-matter 的 id 必须等于文件名里的 N，生成器会校验，不一致直接报错
-# 3. 可选：把出图放到 data/images/caseN.png，缩略图放 data/images/thumbs/caseN.jpg
-# 4. 重新生成
+# 3. 可选：把出图放到 data/images/caseN.png
+#    缩略图放 data/images/thumbs/caseN.jpg，必须是 680×383，
+#    竖版原图请裁出能保住主体的那条横带，不要直接等比缩放：
+#      sips --resampleWidth 680 caseN.jpg
+#      sips -c 383 680 --cropOffset <上边距> 0 caseN.jpg
+# 4. 重新生成（会校验 id 唯一性与缩略图尺寸）
 node scripts/generate.mjs
 ```
 
