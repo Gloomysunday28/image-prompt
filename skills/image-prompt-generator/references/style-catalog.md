@@ -8,11 +8,12 @@ Select one primary route from this catalog. Resolve listed source files from the
 | --- | --- |
 | 天宫、仙界、巨型东方建筑、渺小仙人 | Monumental celestial architecture |
 | 东方工业都市、蒸汽朋克水城、屋顶剑客 | Grounded industrial wuxia |
+| 暗黑浪人、斗笠武士、荒野花海、暴风云层 | Stormbound live-action ronin |
 | 机械剑圣、未来武士、都市战争、角色装甲 | Biomechanical wuxia |
 | 孙悟空、天庭、神话战争、古代神殿废墟 | Live-action Eastern mythology |
 | 巨型怪兽、都市灾难、极端仰拍、巨物恐惧 | Cinematic urban kaiju disaster |
-| 巨大天象、现实旅行误入奇境、空灵尺度 | Dreamlike impossible nature |
-| 夏日、公路、海岸、青春、自由、海滨山城、复古电车、治愈 | Healing travel adventure |
+| 巨大天象、现实旅行误入奇境、宇宙云瀑、世界边缘、第一人称森林骑行、空灵尺度 | Dreamlike impossible nature |
+| 夏日、公路、海岸、青春、自由、海滨山城、复古电车、雪原、宠物、柴犬、猫咪、窗台、托斯卡纳山城、巨型积雨云、粉金星空、治愈 | Healing travel adventure |
 | 复古旅行海报、手绘动画背景、装饰插画 | Retro illustrated travel |
 | iPhone 随手拍、深夜、孤独、生活流 | Imperfect candid emo |
 | 体素游戏、第一人称、HUD、可替换参数 | Parametric voxel game |
@@ -40,6 +41,18 @@ Use for Eastern steampunk cities, industrial water networks, rooftop swordsmen, 
 - **Character:** real adult actor proportions, weathered robes, leather and metal protection, fiber-level fabric, pores and individual hair strands, non-glowing steel weapon.
 - **Avoid:** floating buildings, magic machinery, clean PBR surfaces, decorative fog, fantasy glow, glossy CGI, concept-art skyline, orange-teal grading.
 - **Sources:** `武侠/蒸汽朋克.md`, `武侠/蒸汽朋克-水城.md`, `武侠/赛博朋克.md`.
+
+## Stormbound live-action ronin
+
+Use for solitary historical ronin, wind-lashed wilderness, storm-front flower fields, and grounded dark Eastern sword-film imagery.
+
+- **Core DNA:** a real adult actor seen from behind, physically believable worn clothing and weaponry, a silent post-battle stance, and one coherent environmental force moving everything around him.
+- **Composition:** vertical 9:16; 24mm lens about 60cm above the ground; camera roughly 35° behind and to the left. Keep the figure center-left at about 60% frame height, lower the horizon, and reserve 55%–60% for the storm sky.
+- **Character:** oversized conical woven-bamboo hat wider than the shoulders, face fully hidden, windblown black hair, severely torn black-gray haori, light traditional armor, aged leather and cloth ties, faded hand-dyed back character, steel katana extending toward the lower right.
+- **Motion:** wind travels right to left. Hair, hat ties, torn cloth, silver grass, flowers, petals, leaves, seeds, and debris must all obey that same direction while the ronin remains almost still.
+- **Environment/light:** dense purple wildflowers and silver grass, gray-violet mountain layers, humid rain haze, massive naturally structured cumulonimbus, irregular cold-white openings, and narrow silver-violet rim light with readable shadow detail.
+- **Avoid:** anime, illustration, game key art, cyberpunk, sci-fi armor, glowing blades, magic particles, explosion-like wind, supernatural portals, pure-black silhouette, extra people or weapons, modern infrastructure, incorrect typography.
+- **Source:** `武侠/浪客.md`.
 
 ## Biomechanical wuxia
 
@@ -80,27 +93,32 @@ Use for colossal creatures invading real modern cities, first-person street enco
 
 ## Dreamlike impossible nature
 
-Use for ordinary travelers encountering impossible skies, giant celestial animals, liquid rainbow rivers, cosmic spirals, or surreal but emotionally believable landscapes.
+Use for ordinary travelers encountering impossible skies, giant celestial animals, liquid rainbow rivers, cosmic spirals, world-edge cloudfalls, or surreal but emotionally believable landscapes.
 
 - **Core DNA:** first establish a convincing real place and camera position, then introduce one impossible phenomenon at overwhelming scale.
 - **Close-follow mode:** 24–28mm, camera 1.5–2.5m behind the subject, slightly offset 15°–20°, low tracking view, large foreground figure, deep fantasy world behind.
 - **First-person travel mode:** 20–24mm at adult eye height on a normal ferry, road, deck, or overlook. Validate railings, deck, sea, horizon, and travel context before revealing the sky anomaly.
 - **Simple illustration mode:** 9:16, low-angle small observer versus giant koi or celestial creature, minimal prose and extreme scale contrast.
+- **Cosmic cloudfall mode:** 9:16, 20–24mm from slightly behind a dark cliff edge, with a seated adult only 8%–10% of frame height. Keep the cloud-sea top horizontal, then break it across a clean rectangular 90-degree world edge into a vertically continuous cloud waterfall; place a near-parallel galactic band on the far right and a straight horizon at 15%–20% from the top.
+- **High-speed forest POV mode:** 9:16, 18–20mm head- or chest-mounted bicycle POV about 1.2–1.4m above the ground. Keep only the handlebar and small portions of the hands across the bottom 45%–55%; drive a narrow wet path into a strong one-point vanishing point, with radial blur confined mainly to the closest ground and edges while the center remains readable.
+- **Forest palette and layers:** frame the path with ancient arching dark trees and dense pink-magenta blossoms, place cyan streams and partially hidden blue waterfalls on both sides, then pull the eye toward a warm amber-orange tunnel. Vary lantern scale by depth and let particles, reflections, and light trails reinforce forward velocity without collapsing spatial separation.
 - **Light/material:** physically continuous water, cloud, atmosphere, reflections, backlight, and occlusion even when the phenomenon is impossible.
-- **Avoid:** poster layout, spacecraft cues, arbitrary fantasy objects, multiple sky spectacles, incorrect camera placement, subject too far away, decorative rather than physical water.
-- **Sources:** `梦幻空灵/prompt-one.md`, `梦幻空灵/童话.md`, `梦幻空灵/无人区-童话.md`.
+- **Avoid:** poster layout, spacecraft cues, arbitrary fantasy objects, multiple sky spectacles, incorrect camera placement, subject too large, decorative rather than physical flow, liquid-water substitution, rounded planet edge, floating islands, castles, third-person rider, complete body, car or motorcycle substitution, wide road, orderly lantern grid, static camera, excessive fisheye, or missing depth.
+- **Sources:** `梦幻空灵/prompt-one.md`, `梦幻空灵/童话.md`, `梦幻空灵/无人区-童话.md`, `梦幻空灵/森林骑行.md`, `梦幻/瀑布.md`.
 
 ## Healing travel adventure
 
-Use for youth, summer movement, coastlines, mountain roads, seaside towns, local trains, freedom, travel, and heightened photoreal summer memories.
+Use for youth, summer movement, coastlines, mountain roads, seaside towns, local trains, snowfield companions, quiet window-side pets, gentle celestial skies, immense sunlit cloud formations, freedom, travel, and heightened photoreal memories.
 
-- **Core DNA:** a decisive foreground movement opens into a generous summer world; a road, rail line, slope, coast, or valley creates a clear destination and emotional pull.
-- **Camera:** vertical 9:16 by default. Use a 14mm low follow angle for character-led motion, or a 20–24mm high hillside overlook 15–25m above a railway for photoreal coastal-town scale.
-- **Environment:** sapphire/teal sea, green mountain volume, large layered white summer clouds, wildflowers, lived-in buildings, utility poles and cables, bright directional sunlight.
+- **Core DNA:** an intimate foreground anchor opens into a generous world. Use decisive movement for travel scenes or a quiet domestic frame for contemplative scenes, then create emotional pull through a road, rail line, window, coast, valley, or vast sky.
+- **Camera:** vertical 9:16 by default. Use a 14mm low follow angle for character-led motion, a 20–24mm high hillside overlook 15–25m above a railway for photoreal coastal-town scale, or a 24–28mm low sill-height view for a window-framed scene.
+- **Environment:** sapphire/teal sea, green mountain volume, layered white summer clouds, flat snow, lived-in buildings, warm cabins or stone hill towns, wildflowers, utility infrastructure, bright directional sunlight, and believable indoor/outdoor exposure contrast.
 - **Photographic coastal mode:** place a close local train and crossing infrastructure across the foreground, let dense hillside homes descend around both sides of a wide bay, keep the horizon near 45%–48%, and build continuous cumulonimbus complexity rather than two isolated cloud towers. Use physically believable sunstars, water glitter, lens flare, and motion blur.
+- **Celestial snowfield companion mode:** use vertical 9:16 first-person POV at roughly 1.65m with the optical axis parallel to flat ground, never a downward view. Place one realistic companion animal 5–7m ahead, preserve broad empty snow before sparse warm cabins at 50–100m, lower the horizon, and reserve about 75% for a pearl-pink, rose-gold, champagne, peach, ivory, and soft-lavender celestial canopy. Keep the animal pose, snow grains, cabin scale, reflections, and deep focus photographically grounded while the sky provides the single impossible phenomenon.
+- **Window-framed companion mode:** use a vertical first-person view from a quiet shadowed room. Let a tall dark wooden window frame occupy both sides and the top, keep the sill in the lowest roughly 10%, and place a small sleeping pet in one lower corner. Compress a lived-in Southern European hill town into the lowest 15%–20%, center one enormous sunlit cauliflower-structured cumulonimbus tower above it, and reserve roughly 75%–80% for clean blue sky. Preserve subtle cloud reflection in one pane, natural warm/cool exposure balance, and the feeling of an ordinary moment accidentally framing an extraordinary but physically believable natural event.
 - **Color:** high saturation but natural relationships; clean air, luminous highlights, readable shadows, no gray filter.
-- **Avoid:** static pose, large centered portrait, flat postcard depth, central-only village, straight centered road, empty sky, isolated symmetric cloud towers, generic tourist photography, random flowers without a leading line, gloomy grade, illustration drift when realism is requested.
-- **Sources:** `治愈/滑板治愈.md`, `治愈/夏日海边.md`.
+- **Avoid:** static travel staging, large centered portrait, flat postcard depth, central-only village, straight centered road, empty sky, isolated symmetric cloud towers, generic tourist photography, random flowers without a leading line, gloomy grade, illustration drift when realism is requested, high-angle snowfield views, sloped terrain, oversized foreground cabins, seated or standing substitution when a crouch is required, cartoon animals, blue/cyan celestial skies in the snowfield mode, missing or weak window framing, oversized foreground pet, storm-dark cloud substitution, surreal architecture, fisheye, shallow depth of field.
+- **Sources:** `治愈/滑板治愈.md`, `治愈/夏日海边.md`, `治愈/狗子-雪地.md`, `治愈/猫咪床边.md`.
 
 ## Retro illustrated travel
 
