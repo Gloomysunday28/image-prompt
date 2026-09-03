@@ -90,12 +90,12 @@ for (const c of cases) {
   byCat.get(c.category).push(c);
 }
 const overview = [];
-overview.push('| 分类 | 条数 | 类型分布 | 提示词 |');
+overview.push('| 分类 | &nbsp;&nbsp;条数&nbsp;&nbsp; | 类型分布 | 提示词 |');
 overview.push('| --- | --- | --- | --- |');
 for (const [cat, list] of byCat) {
   const types = [...new Set(list.map(c => c.type))].join(' / ');
   const links = list.map(c => `[${c.title}](docs/gallery.md#case-${c.id})`).join('、');
-  overview.push(`| **${cat}** | ${list.length} | ${types} | ${links} |`);
+  overview.push(`| **${cat}** | ${list.length} 条 | ${types} | ${links} |`);
 }
 
 const featured = cases.filter(c => c.thumb);

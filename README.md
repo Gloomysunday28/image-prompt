@@ -29,17 +29,17 @@
 
 <!-- GENERATED:OVERVIEW:START -->
 
-| 分类 | 条数 | 类型分布 | 提示词 |
+| 分类 | &nbsp;&nbsp;条数&nbsp;&nbsp; | 类型分布 | 提示词 |
 | --- | --- | --- | --- |
-| **宏大风格** | 2 | 环境 / 设定集 | [宫阙图](docs/gallery.md#case-1)、[天宫设定集](docs/gallery.md#case-3) |
-| **游戏** | 1 | 参数化 | [我的世界](docs/gallery.md#case-2) |
-| **梦幻空灵** | 5 | 环境 | [星云锦鲤](docs/gallery.md#case-4)、[童话](docs/gallery.md#case-7)、[无人区-童话](docs/gallery.md#case-8)、[瀑布](docs/gallery.md#case-21)、[森林骑行](docs/gallery.md#case-23) |
-| **宫崎骏画风** | 1 | 环境 | [意大利旅游](docs/gallery.md#case-5) |
-| **日常 emo** | 1 | 元指令 | [深夜快照](docs/gallery.md#case-6) |
-| **武侠** | 9 | 环境 / 双主体 / 角色 | [蒸汽朋克](docs/gallery.md#case-9)、[机甲](docs/gallery.md#case-11)、[机甲-夜晚](docs/gallery.md#case-12)、[机甲-白天](docs/gallery.md#case-13)、[赛博朋克](docs/gallery.md#case-14)、[将军](docs/gallery.md#case-15)、[蒸汽朋克-水城](docs/gallery.md#case-16)、[骑士-正面](docs/gallery.md#case-17)、[浪客](docs/gallery.md#case-22) |
-| **治愈** | 4 | 环境 | [滑板治愈](docs/gallery.md#case-10)、[夏日海边](docs/gallery.md#case-20)、[狗子-雪地](docs/gallery.md#case-24)、[猫咪床边](docs/gallery.md#case-25) |
-| **西游记** | 1 | 双主体 | [悟空](docs/gallery.md#case-18) |
-| **怪兽** | 1 | 角色 | [近距离大鸟](docs/gallery.md#case-19) |
+| **宏大风格** | 2 条 | 环境 / 设定集 | [宫阙图](docs/gallery.md#case-1)、[天宫设定集](docs/gallery.md#case-3) |
+| **游戏** | 1 条 | 参数化 | [我的世界](docs/gallery.md#case-2) |
+| **梦幻空灵** | 5 条 | 环境 | [星云锦鲤](docs/gallery.md#case-4)、[童话](docs/gallery.md#case-7)、[无人区-童话](docs/gallery.md#case-8)、[瀑布](docs/gallery.md#case-21)、[森林骑行](docs/gallery.md#case-23) |
+| **宫崎骏画风** | 1 条 | 环境 | [意大利旅游](docs/gallery.md#case-5) |
+| **日常 emo** | 1 条 | 元指令 | [深夜快照](docs/gallery.md#case-6) |
+| **武侠** | 9 条 | 环境 / 双主体 / 角色 | [蒸汽朋克](docs/gallery.md#case-9)、[机甲](docs/gallery.md#case-11)、[机甲-夜晚](docs/gallery.md#case-12)、[机甲-白天](docs/gallery.md#case-13)、[赛博朋克](docs/gallery.md#case-14)、[将军](docs/gallery.md#case-15)、[蒸汽朋克-水城](docs/gallery.md#case-16)、[骑士-正面](docs/gallery.md#case-17)、[浪客](docs/gallery.md#case-22) |
+| **治愈** | 4 条 | 环境 | [滑板治愈](docs/gallery.md#case-10)、[夏日海边](docs/gallery.md#case-20)、[狗子-雪地](docs/gallery.md#case-24)、[猫咪床边](docs/gallery.md#case-25) |
+| **西游记** | 1 条 | 双主体 | [悟空](docs/gallery.md#case-18) |
+| **怪兽** | 1 条 | 角色 | [近距离大鸟](docs/gallery.md#case-19) |
 
 <!-- GENERATED:OVERVIEW:END -->
 
