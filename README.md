@@ -3,14 +3,14 @@
 > 结构化、可复用的中文 AI 绘画提示词收藏库。每一条都不是关键词堆砌，而是一份完整的摄影/美术指令：画幅、机位、焦段、空间层次、材质、光线、动态、Negative Prompt 一应俱全。
 
 <p>
-  <img alt="prompts" src="https://img.shields.io/badge/提示词-28-blue" />
+  <img alt="prompts" src="https://img.shields.io/badge/提示词-29-blue" />
   <img alt="format" src="https://img.shields.io/badge/格式-结构化长提示词-green" />
   <img alt="lang" src="https://img.shields.io/badge/lang-中文%20%2F%20English-orange" />
 </p>
 
 ## 📖 快速入口
 
-- **[🖼️ 提示词画廊](docs/gallery.md)** — 全部 25 条，含配图、标签与可直接复制的提示词全文
+- **[🖼️ 提示词画廊](docs/gallery.md)** — 全部 29 条，含配图、标签与可直接复制的提示词全文
 - **[🎬 VEO 3 视频提示词方法](docs/veo3.md)** — 配音、一致性控制与「身、场、镜、时、台、约、负」七段式
 - **[🤖 仓库 Skill](#-仓库-skill)** — 有想法时写成 Prompt，没想法时替你想场景
 - **[✍️ 提示词写作方法论](#️-提示词写作方法论)** — 这套提示词为什么稳定
@@ -37,7 +37,7 @@
 | **宫崎骏画风** | 1 条 | 环境 | [意大利旅游](docs/gallery.md#case-5) |
 | **日常 emo** | 1 条 | 元指令 | [深夜快照](docs/gallery.md#case-6) |
 | **武侠** | 9 条 | 环境 / 双主体 / 角色 | [蒸汽朋克](docs/gallery.md#case-9)、[机甲](docs/gallery.md#case-11)、[机甲-夜晚](docs/gallery.md#case-12)、[机甲-白天](docs/gallery.md#case-13)、[赛博朋克](docs/gallery.md#case-14)、[将军](docs/gallery.md#case-15)、[蒸汽朋克-水城](docs/gallery.md#case-16)、[骑士-正面](docs/gallery.md#case-17)、[浪客](docs/gallery.md#case-22) |
-| **治愈** | 4 条 | 环境 | [滑板治愈](docs/gallery.md#case-10)、[夏日海边](docs/gallery.md#case-20)、[狗子-雪地](docs/gallery.md#case-24)、[猫咪床边](docs/gallery.md#case-25) |
+| **治愈** | 5 条 | 环境 | [滑板治愈](docs/gallery.md#case-10)、[夏日海边](docs/gallery.md#case-20)、[狗子-雪地](docs/gallery.md#case-24)、[猫咪床边](docs/gallery.md#case-25)、[乡村梦想家园](docs/gallery.md#case-29) |
 | **西游记** | 1 条 | 双主体 | [悟空](docs/gallery.md#case-18) |
 | **怪兽** | 1 条 | 角色 | [近距离大鸟](docs/gallery.md#case-19) |
 | **Q版** | 1 条 | 双主体 | [雷欧](docs/gallery.md#case-27) |
@@ -63,8 +63,8 @@
 | **例 22·浪客**<br />[查看提示词](docs/gallery.md#case-22) | **例 23·森林骑行**<br />[查看提示词](docs/gallery.md#case-23) | **例 24·狗子-雪地**<br />[查看提示词](docs/gallery.md#case-24) |
 | <a href="data/images/case25.png"><img src="data/images/thumbs/case25.jpg" width="300" /></a> | <a href="data/images/case26.png"><img src="data/images/thumbs/case26.jpg" width="300" /></a> | <a href="data/images/case27.png"><img src="data/images/thumbs/case27.jpg" width="300" /></a> |
 | **例 25·猫咪床边**<br />[查看提示词](docs/gallery.md#case-25) | **例 26·公路巨云**<br />[查看提示词](docs/gallery.md#case-26) | **例 27·雷欧**<br />[查看提示词](docs/gallery.md#case-27) |
-| <a href="data/images/case28.png"><img src="data/images/thumbs/case28.jpg" width="300" /></a> |
-| **例 28·黑翼神祇**<br />[查看提示词](docs/gallery.md#case-28) |
+| <a href="data/images/case28.png"><img src="data/images/thumbs/case28.jpg" width="300" /></a> | <a href="data/images/case29.jpg"><img src="data/images/thumbs/case29.jpg" width="300" /></a> |
+| **例 28·黑翼神祇**<br />[查看提示词](docs/gallery.md#case-28) | **例 29·乡村梦想家园**<br />[查看提示词](docs/gallery.md#case-29) |
 
 <!-- GENERATED:GALLERY:END -->
 
@@ -120,8 +120,8 @@
 ```text
 image-prompt/
 ├─ data/
-│  ├─ prompts/case1.md … case25.md   # 唯一手写数据源：front-matter + 提示词正文
-│  ├─ images/caseN.png               # 出图原图
+│  ├─ prompts/case1.md … case29.md   # 唯一手写数据源：front-matter + 提示词正文
+│  ├─ images/caseN.png / caseN.jpg   # 出图原图
 │  ├─ images/thumbs/caseN.jpg        # 画廊缩略图
 │  └─ prompts.json                   # 生成产物
 ├─ docs/
