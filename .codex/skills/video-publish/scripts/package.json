@@ -1,0 +1,11 @@
+{
+  "name": "video-publish-scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test bilibili.test.mjs youtube.test.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.63.0"
+  }
+}
