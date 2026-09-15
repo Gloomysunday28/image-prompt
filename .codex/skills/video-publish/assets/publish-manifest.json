@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "job_id": null,
+  "created_at": null,
+  "updated_at": null,
+  "mode": null,
+  "authorization": { "user_instruction": null, "scope": null },
+  "video": {
+    "path": null,
+    "sha256": null,
+    "size_bytes": null,
+    "duration_seconds": null,
+    "width": null,
+    "height": null,
+    "video_codec": null,
+    "audio_codec": null
+  },
+  "defaults": {
+    "title": null,
+    "description": null,
+    "tags": [],
+    "language": null,
+    "cover_path": null,
+    "visibility": null,
+    "scheduled_at": null,
+    "timezone": null
+  },
+  "targets": [],
+  "target_template": {
+    "platform": null,
+    "account_id": null,
+    "account_label": null,
+    "title": null,
+    "description": null,
+    "tags": [],
+    "cover": null,
+    "visibility": null,
+    "scheduled_at": null,
+    "platform_timezone": null,
+    "platform_fields": {},
+    "status": "prepared",
+    "attempts": 0,
+    "submitted_at": null,
+    "post_id": null,
+    "post_url": null,
+    "management_url": null,
+    "last_verified_at": null,
+    "evidence": null,
+    "error": null,
+    "next_action": null,
+    "history": []
+  }
+}
