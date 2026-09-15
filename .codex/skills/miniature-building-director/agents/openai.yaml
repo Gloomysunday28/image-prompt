@@ -1,0 +1,4 @@
+interface:
+  display_name: "巨手微缩建筑导演"
+  short_description: "自主设计微缩建筑，先生成外景和内景图，待确认后输出三段十五秒视频提示词"
+  default_prompt: "使用 $miniature-building-director，自行设计一座有辨识度的建筑，先生成外景图和内景图，等我确认后，再输出巨手搭建过程的三段十五秒中文视频提示词。"
