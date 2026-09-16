@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test bilibili.test.mjs youtube.test.mjs"
+    "test": "node --test bilibili.test.mjs youtube.test.mjs tiktok.test.mjs"
   },
   "dependencies": {
     "playwright-core": "1.63.0"
