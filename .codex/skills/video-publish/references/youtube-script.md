@@ -60,7 +60,7 @@ node youtube.mjs publish --profile main --manifest /absolute/new-job.json
 - `title`（最多 100 字符）、`description`（最多 5000 字符）、`tags`（总长度最多 500 字符）。保持用户要求的语言。
 - `visibility: public`、`scheduled_at: null`、`status: prepared`。
 - `platform_fields.original: true`、`commercial: false`，`altered_content` 与 `made_for_kids` 都须为已经确认的布尔值。
-- `authorization.terms_accepted: true` 表示用户已在这份任务中同意上传条款。也可用 `--terms-accepted` 传入已经取得的同意，不重复问同一任务。旧视频记录不能作为新任务的授权。
+- `authorization.terms_accepted: true` 或 `--terms-accepted` 可依据主技能中用户已给出的持续授权设置，清单记录来源，不要求用户逐次确认。新任务使用当前发布请求和持续授权，不复制旧视频的事实声明与发布结果。
 
 支持平台默认截帧封面、立即公开、原始视频文件。定时、商业推广、自定义封面和关闭后重新打开的草稿尚不支持；遇到这些设置明确报错，不默默忽略。AI 标签选择按 `altered_content`，不把所有视频都标成 AI。
 

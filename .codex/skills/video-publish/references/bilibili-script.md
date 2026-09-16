@@ -70,7 +70,7 @@ node bilibili.mjs publish --cdp-url http://127.0.0.1:9222 --manifest /absolute/j
 }
 ```
 
-清单顶层 `mode` 为 `publish`，`video.path` 为源视频。用户明确确认内容性质后才填写原创/AI/商业字段，不能凭模板推断。
+清单顶层 `mode` 为 `publish`，`video.path` 为源视频。原创/AI/商业字段依据当前素材及已确认事实填写，不能凭模板或默认同意偏好推断。
 
 封面优先使用 `--cover`，其次 `defaults.cover_path` 或目标的 `cover_path`。均未提供时用本地 `ffmpeg` 从视频 80% 位置提取一帧，保存到运行目录，不覆盖或重编码源视频。需要本机已安装 `ffmpeg` 和 `ffprobe`。执行前应查看该帧是否适合作封面，不合适则传入另一个已有封面。
 
@@ -80,7 +80,7 @@ node bilibili.mjs publish --cdp-url http://127.0.0.1:9222 --manifest /absolute/j
 # 只检查文件、参数和已有记录，不打开浏览器，不上传。
 node bilibili.mjs check --manifest /absolute/job.json --account 23424850 --terms-accepted
 
-# 用户已明确授权发布，并已在当次同意页面的使用协议/社区公约后执行。
+# 用户已要求发布；普通上传协议按主技能的持续授权处理后执行。
 node bilibili.mjs publish --profile main --manifest /absolute/job.json --account 23424850 --terms-accepted
 
 # 恢复同一浏览器配置内已上传、未提交的单个视频表单，不再次上传文件。
@@ -90,7 +90,7 @@ node bilibili.mjs resume --profile main --manifest /absolute/job.json --account 
 node bilibili.mjs verify --profile main --manifest /absolute/job.json --account 23424850
 ```
 
-`--terms-accepted` 记录当次明确同意，不代表代替用户同意未来的新协议。`publish` 是实际上传及投稿命令，不能把它作为检查命令运行。
+`--terms-accepted` 可依据主技能中用户已给出的持续授权传入，清单记录授权来源；普通上传协议不逐次询问。涉及本次发布之外的付费或其他操作不包含在此授权中。`publish` 是实际上传及投稿命令，不能把它作为检查命令运行。
 
 成功状态先记录为 `reviewing`，返回 BV 号与管理页；不把投稿成功夸大为公开审核通过。`verify` 输出页面实际文字供代理判断，不自动推断审核结果。
 
