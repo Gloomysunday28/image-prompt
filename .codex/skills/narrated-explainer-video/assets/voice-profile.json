@@ -1,7 +1,7 @@
 {
   "provider": "edge-tts",
   "voice": "zh-CN-YunjianNeural",
-  "rate": "-8%",
+  "rate": "+0%",
   "pitch": "-12Hz",
   "volume": "+0%",
   "sample_rate": 24000,
@@ -18,7 +18,7 @@
   "avatar_audio": "reuse_narration_master",
   "approved_sample": "assets/approved-voice.wav",
   "narrator_reference": "assets/narrator.png",
-  "approval_note": "用户于2026-09-19确认新低沉大叔声及15秒正式正文试听；后续要求固定此声音。旧James Gao及旧大叔声线试听不再使用。",
+  "approval_note": "用户于2026-09-19确认新低沉大叔声及15秒正式正文试听；后续要求固定此声音。旧James Gao及旧大叔声线试听不再使用。 用户后续明确要求不要降低语速，默认语速改为+0%，保留原音色、音高和音量。",
   "asset_sha256": {
     "narrator.png": "7f1c88d6285bc897b195ba7743b0b8f8e10c420660c58e020567c9d5747fa0f5",
     "approved-voice.wav": "d256a0b9f6a6b338d5945cc89c74e79799d47a06333d6112ee244d7c84d9ee24"

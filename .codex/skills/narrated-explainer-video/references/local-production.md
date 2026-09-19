@@ -12,7 +12,7 @@
 python3 <skill-dir>/scripts/synthesize_voice.py --text-file <正文.txt> --output <配音.wav>
 ```
 
-脚本读取固定声音参数，不能传另一个voice。支持 `--check` 检查组件、素材校验值及配置；`--ffmpeg /绝对路径/ffmpeg` 可更换可执行文件路径，不更换声音。已生成的本声线MP3可用 `--raw-mp3` 加 `--events-json` 重新处理，避免重复网络请求；不能把其他声音的MP3当作本声线输入。
+脚本读取固定声音参数，默认正常语速 `+0%`，不降低语速；不能传另一个voice。支持 `--check` 检查组件、素材校验值及配置；`--ffmpeg /绝对路径/ffmpeg` 可更换可执行文件路径，不更换声音。已生成的本声线MP3可用 `--raw-mp3` 加 `--events-json` 重新处理，避免重复网络请求；不能把其他声音的MP3当作本声线输入。
 
 已有 Edge TTS 包目录：
 `/Users/caijiadi/image-prompt/outputs/tang-taizong-20260918/work/edge_tts_pkg`
@@ -47,6 +47,7 @@ python3 <skill-dir>/scripts/synthesize_voice.py --text-file <正文.txt> --outpu
 
 ## 剪辑与验证
 
+- 数字人标题遵循主技能“数字人画面的醒目标题”：保留原始右侧数字人近景，后期在左侧留白叠加分行大标题，按规定的字号与配色渲染，并检查实际成片原尺寸及宽480px预览。旧项目标题位置、字号、颜色不可直接沿用。若通过ASS指定颜色，注意它使用BGR顺序，先转换主技能中的RGB色值，并从合成结果核对颜色。
 - 使用音频母版累计时长计算镜头、字幕与章节时间；25fps视频用累计时间四舍五入到帧，避免每段取整导致累计漂移。
 - 最终映射画面流与原始配音母版，丢弃所有场景视频和数字人视频自带音轨。
 - 本机FFmpeg可用 `h264_videotoolbox`、`libass` 与中文字体 `/System/Library/Fonts/Hiragino Sans GB.ttc`。能力应以实际环境为准。
