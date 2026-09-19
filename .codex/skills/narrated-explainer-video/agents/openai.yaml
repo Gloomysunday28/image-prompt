@@ -1,0 +1,4 @@
+interface:
+  display_name: "大叔通用解说成片"
+  short_description: "先确认想法，再确认15秒正文试听；固定大叔声，头尾数字人，画面配合解说"
+  default_prompt: "使用 $narrated-explainer-video 制作中文解说视频：先给我确认想法，再给15秒正文试听并等我确认，之后制作全片；固定大叔声，头尾数字人，正文画面配合讲述。"
